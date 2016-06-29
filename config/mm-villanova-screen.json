@@ -1,0 +1,146 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "4b96bdf8-4f40-4949-ab3a-7b4ecb9d8f63.json",
+  "screen-config-base" : "./config/mm-villanova-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Video", "News", "Social", "Team"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["us"],
+  "interests" : [],
+
+  "sources" : [
+    {
+      "name" :"twitter-marchmadness",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "twitter",
+      "grouping" : "twitter",
+      "source" : "https://twitrss.me/twitter_user_to_rss/?user=NovaMBB",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" :"instagram-marchmadness",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "instagram",
+      "grouping" : "instagram",
+      "furl" : "func://instagram.com/showPhotosByTagName/novambb",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" : "Youtube-Villanova-mens-basketball",
+      "fetcher" : "youtube",
+      "furl_generator" : "embedly_rss",
+      "app" : "youtube",
+      "grouping" : "youtube",
+      "source" : "https://www.youtube.com/user/NovaAthletics/search?query=men%27s+basketball",
+      "enabled" : true,
+      "tags" : ["Video"],
+      "max_items" : 100,
+      "skip" : 0
+    },
+    {
+      "name" : "Facebook-MarchMadness",
+      "fetcher" : "facebook",
+      "furl_generator" : "embedly_rss",
+      "app" : "facebook",
+      "grouping" : "facebook",
+      "source" : "https://graph.facebook.com/v2.2/176134773759/feed?access_token=NNNNNN|XXXXXXXXXXX",
+      "post_url" : "https://www.facebook.com/NovaBasketball/posts/{}",
+      "enabled" : false,
+      "tags" : ["Social"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name": "bleacherrerpot-college-basketball",
+      "fetcher": "bleacherreport",
+      "furl_generator": "embedly_rss",
+      "app": "bleacherreport",
+      "grouping": "bleacherreport",
+      "source": "http://bleacherreport.com/villanova-basketball",
+      "enabled": true,
+      "tags": ["News"],
+      "max_items": 100,
+      "skip": 1,
+      "filterout" : [
+        {
+        "url" : "twitter.com"
+      }
+      ]
+    },
+    {
+      "name" : "villanova-official",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "villanova.com",
+      "grouping" : "vc",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.villanova.com/sports/m-baskbl/nova-m-baskbl-body.html",
+      "url" : "http://www.villanova.com/sports/m-baskbl/nova-m-baskbl-body.html",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    },
+    {
+      "name" : "villanova-schedule",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "villanova.com",
+      "grouping" : "vc",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.villanova.com/sports/m-baskbl/sched/nova-m-baskbl-sched.html",
+      "url" : "http://www.villanova.com/sports/m-baskbl/sched/nova-m-baskbl-sched.html",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    },
+    {
+      "name" : "villanova-roster",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "espn.com",
+      "grouping" : "espn",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://espn.go.com/mens-college-basketball/team/roster/_/id/222/villanova-wildcats",
+      "url" : "http://espn.go.com/mens-college-basketball/team/roster/_/id/222/villanova-wildcats",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    },
+    {
+      "name" : "villanova-statistics",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "espn.com",
+      "grouping" : "espn",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://espn.go.com/mens-college-basketball/team/stats/_/id/222/villanova-wildcats",
+      "url" : "http://espn.go.com/mens-college-basketball/team/stats/_/id/222/villanova-wildcats",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    },
+    {
+      "name" : "villanova-athletics",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "villanova.com",
+      "grouping" : "vc",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.villanova.com/",
+      "url" : "http://www.villanova.com/",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    }
+  ]
+}

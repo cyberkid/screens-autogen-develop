@@ -1,0 +1,92 @@
+{
+  "displayName":"Fun this way",
+  "screen-file-name":"dbbe8a7c-bce5-4158-8a66-088ca080ba65.json",
+  "screen-uuid":"40662022b-1d77-4df6-bf45-bc774dfd9c9d",
+  "username":"vishvesh",
+  "screen-config-base":"./config/fun-this-way-screen-cfg.json",
+  "tag_order":[
+    "TOP STORIES"
+  ],
+  "interests":[
+    "fun",
+    "prank"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"9gag-fresh",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://9gag-rss.com/api/rss/get?code=9GAGFresh&format=2",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"oatmeal-latest",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/oatmealfeed?format=xml",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"youtube-funkyou",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/funkyouentertainment/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"9gag-latest",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://9gag-rss.com/api/rss/get?code=9GAG&format=2",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"youtube-romanatwood",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/RomanAtwood/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    }
+  ]
+}

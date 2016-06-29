@@ -1,0 +1,115 @@
+{
+  "displayName":"Womens Health",
+  "screen-file-name":"90ba7ac4-a984-4b71-b56e-6dba7f777f7e.json",
+  "screen-uuid":"7b2e7987-d62a-4eed-889d-be83d9e1dbbe",
+  "username":"vishvesh",
+  "screen-config-base":"./config/womens-health-screen-cfg.json",
+  "tag_order":[
+    "TOP PICKS"
+  ],
+  "interests":[
+    "women's health"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"womensfitness-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.womensfitness.co.uk/taxonomy/term/64/feed",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"womeanshealth-fitness-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.womenshealthandfitness.com.au/component/obrss/women-s-health-fitness-combined-feed",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"womens-health-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/WomensHealthMag/videos",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"womenshealth-food-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.womensfitness.co.uk/taxonomy/term/22/feed",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"healthyindia-healthy",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.healthyindiandiet.com/1/feed",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"tarshi-customfetcher",
+      "fetcher":"tarshi",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.tarshi.net/inplainspeak/",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"pickyeater-healthy",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/ThePickyEaterBlog",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    }
+  ]
+}

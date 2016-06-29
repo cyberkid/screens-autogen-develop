@@ -1,0 +1,38 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "yt.json",
+  "screen-config-base" : "./config/us-news-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Basketball"],
+  "max_dv_per_tab" : 20,
+
+  "sources" : [
+    {
+      "name" : "Youtube-Kentucky-basketball",
+      "fetcher": "youtube",
+      "furl_generator": "embedly_rss",
+      "app": "youtube",
+      "grouping": "youtube",
+      "source": "https://www.youtube.com/channel/UC7EY-H9hmOcrckQ1X-I6SpA/videos",
+      "enabled": false,
+      "tags": ["Basketball"],
+      "max_items": 100,
+      "skip": 0
+    },
+    {
+      "name" : "Youtube-Villanova-mens-basketball",
+      "fetcher" : "youtube",
+      "furl_generator" : "embedly_rss",
+      "app" : "youtube",
+      "grouping" : "youtube",
+      "source" : "https://www.youtube.com/user/NovaAthletics/search?query=men%27s+basketball",
+      "enabled" : true,
+      "tags" : ["Basketball"],
+      "max_items" : 100,
+      "skip" : 0
+    }
+  ]
+}

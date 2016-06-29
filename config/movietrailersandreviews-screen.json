@@ -1,0 +1,92 @@
+{
+  "displayName":"Movie Trailers and Reviews",
+  "screen-file-name":"300a0d8e-cf3e-4032-bd94-c746355b8830.json",
+  "screen-uuid":"d57f19cc-3f7a-4c28-affd-222936ad7b70",
+  "username":"brandon",
+  "screen-config-base":"./config/movietrailersandreviews-screen-cfg.json",
+  "tag_order":[
+    "MOVIE TRAILERS",
+    "MOVIE REVIEWS"
+  ],
+  "interests":[
+    "Movie Trailers"
+  ],
+  "countries":[
+    "us"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":20,
+  "ranking-function":"interleave",
+  "displayIcon":"movie_trailers.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"comingsoonmovietrailers",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/FilmsActuTrailers/videos",
+      "enabled":true,
+      "tags":[
+        "MOVIE TRAILERS"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"fandangomovietrailers",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.fandango.com/rss/comingsoonmovies.rss",
+      "enabled":true,
+      "tags":[
+        "MOVIE TRAILERS"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"cinemablendmoviereviews",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.cinemablend.com/rss-all.xml",
+      "enabled":true,
+      "tags":[
+        "MOVIE REVIEWS"
+      ],
+      "max_items":30,
+      "skip":0
+    },
+    {
+      "name":"latimesmoviereviews",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.latimes.com/entertainment/movies/reviews/rss2.0.xml",
+      "enabled":true,
+      "tags":[
+        "MOVIE REVIEWS"
+      ],
+      "max_items":30,
+      "skip":0
+    },
+    {
+      "name":"appletrailers",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://trailers.apple.com/trailers/home/rss/newtrailers.rss",
+      "enabled":true,
+      "tags":[
+        "MOVIE TRAILERS"
+      ],
+      "max_items":10,
+      "skip":0
+    }
+  ]
+}

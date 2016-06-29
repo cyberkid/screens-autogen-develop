@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:georss="http://www.georss.org/georss" xmlns:media="http://search.yahoo.com/mrss/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+   <channel>
+      <title>TechCrunch</title>
+      <link>http://techcrunch.com</link>
+      <description>TechCrunch is a group-edited blog that profiles the companies, products and events defining and transforming the new web.</description>
+      <lastBuildDate>Tue, 09 Feb 2016 08:19:41 +0000</lastBuildDate>
+      <language>en</language>
+      <sy:updatePeriod>hourly</sy:updatePeriod>
+      <sy:updateFrequency>1</sy:updateFrequency>
+      <generator>http://wordpress.com/</generator>
+      <cloud domain="techcrunch.com" port="80" path="/?rsscloud=notify" registerProcedure="" protocol="http-post" />
+      <image>
+         <link>http://www.techcrunch.com</link>
+         <url>http://www.techcrunch.com/wp-content/themes/techcrunchmu/images/techcrunch_logo.png</url>
+         <title>TechCrunch</title>
+      </image>
+      <atom:link rel="search" type="application/opensearchdescription+xml" href="http://techcrunch.com/osd.xml" title="TechCrunch" />
+      <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Techcrunch" />
+      <feedburner:info uri="techcrunch" />
+      <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+      <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://techcrunch.com/?pushpress=hub" />
+      <feedburner:feedFlare href="https://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare>
+      <feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare>
+      <feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare>
+      <feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/Techcrunch" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare>
+      <feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare>
+      <feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare>
+      <feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare>
+      <feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly>
+      <item>
+         <feedburner:origLink>http://techcrunch.com/2016/02/09/paypals-chief-technology-officer-resigns/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Digital Shadows Gets $14M To Keep Growing Its Digital Risk Scanning Service</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/bP0K2LoszCY/</link>
+         <comments>http://techcrunch.com/2016/02/09/digital-shadows-gets-14m-to-keep-growing-its-digital-risk-scanning-service/#respond</comments>
+         <pubDate>Tue, 09 Feb 2016 08:00:21 +0000</pubDate>
+         <dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
+         <category><![CDATA[Enterprise]]></category>
+         <category><![CDATA[Europe]]></category>
+         <category><![CDATA[Fundings & Exits]]></category>
+         <category><![CDATA[Security]]></category>
+         <category><![CDATA[Startups]]></category>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[Digital Shadows]]></category>
+         <category><![CDATA[cyber security]]></category>
+         <category><![CDATA[Trinity Ventures]]></category>
+         <category><![CDATA[data breach]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274293</guid>
+         <description>&lt;img width="680" height="440" src="https://tctechcrunch2011.files.wordpress.com/2015/04/shutterstock_141766612.jpg?w=680" class="attachment-large size-large wp-post-image" alt="data analysis research shutterstock" /&gt;&amp;nbsp;UK cyber security startup Digital Shadows, which sells a SaaS service to businesses wanting to monitor and manage potential risks by keeping tabs on activity related to their digital footprint &amp;#8212; has closed a $14 million Series B funding round, led by Trinity Ventures. As part of the investment, Trinity&amp;#8217;s Fred Wang has joined the Digital Shadows board. &lt;a href="http://techcrunch.com/2016/02/09/digital-shadows-gets-14m-to-keep-growing-its-digital-risk-scanning-service/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=bP0K2LoszCY:491ZlddSi2c:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=bP0K2LoszCY:491ZlddSi2c:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=bP0K2LoszCY:491ZlddSi2c:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=bP0K2LoszCY:491ZlddSi2c:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=bP0K2LoszCY:491ZlddSi2c:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=bP0K2LoszCY:491ZlddSi2c:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=bP0K2LoszCY:491ZlddSi2c:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=bP0K2LoszCY:491ZlddSi2c:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/bP0K2LoszCY" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/09/digital-shadows-gets-14m-to-keep-growing-its-digital-risk-scanning-service/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/shutterstock_141766612.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/shutterstock_141766612.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">Digital%20Shadows%20Gets%20%2414M%20To%20Keep%20Growing%20Its%20Digital%20Risk%20Scanning%26nbsp%3BService</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2015/04/shutterstock_141766612.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2015/04/shutterstock_141766612.jpg?w=150" medium="image">
+            <media:title type="html">data analysis research shutterstock</media:title>
+         </media:content>
+         <media:content url="http://0.gravatar.com/avatar/68a02f90ad0a6349a7b852ddce6f93e4?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">nelomas</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/09/digital-shadows-gets-14m-to-keep-growing-its-digital-risk-scanning-service/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Uber Begins To See The Payout From Accepting Cash Payments</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/fqrEe_jlwnE/</link>
+         <comments>http://techcrunch.com/2016/02/08/uber-begins-to-see-the-payout-from-accepting-cash-payments/#respond</comments>
+         <pubDate>Tue, 09 Feb 2016 06:40:34 +0000</pubDate>
+         <dc:creator><![CDATA[Jon Russell]]></dc:creator>
+         <category><![CDATA[Apps]]></category>
+         <category><![CDATA[Asia]]></category>
+         <category><![CDATA[Collaborative Consumption]]></category>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[Uber]]></category>
+         <category><![CDATA[india]]></category>
+         <category><![CDATA[GrabTaxi]]></category>
+         <category><![CDATA[Ola]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1273030</guid>
+         <description>&lt;img width="680" height="453" src="https://tctechcrunch2011.files.wordpress.com/2015/05/indian-rupees.jpg?w=680" class="attachment-large size-large wp-post-image" alt="indian rupees" /&gt;&amp;nbsp;What does it take for a company to move away from a core feature with which it identifies? &lt;a href="http://techcrunch.com/2016/02/08/uber-begins-to-see-the-payout-from-accepting-cash-payments/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fqrEe_jlwnE:VbS5nkd894Q:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fqrEe_jlwnE:VbS5nkd894Q:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fqrEe_jlwnE:VbS5nkd894Q:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fqrEe_jlwnE:VbS5nkd894Q:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=fqrEe_jlwnE:VbS5nkd894Q:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fqrEe_jlwnE:VbS5nkd894Q:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=fqrEe_jlwnE:VbS5nkd894Q:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fqrEe_jlwnE:VbS5nkd894Q:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/fqrEe_jlwnE" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/uber-begins-to-see-the-payout-from-accepting-cash-payments/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/05/indian-rupees.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2015/05/indian-rupees.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">Uber%20Begins%20To%20See%20The%20Payout%20From%20Accepting%20Cash%26nbsp%3BPayments</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2015/05/indian-rupees.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2015/05/indian-rupees.jpg?w=150" medium="image">
+            <media:title type="html">indian rupees</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/5f5876ccfd72ee5c2620b86429e8caf5?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">Jon</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2015/05/uber-cash-payments-in-india.png?w=680" medium="image">
+            <media:title type="html">uber cash payments in india</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2015/11/ola-money.png?w=680" medium="image">
+            <media:title type="html">ola money</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/uber-begins-to-see-the-payout-from-accepting-cash-payments/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Comedian Chelsea Peretti Skewers Tech’s Lack Of Diversity, On-Demand Economy At Crunchies Awards</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/QrT64THF0aM/</link>
+         <comments>http://techcrunch.com/2016/02/08/comedian-chelsea-peretti-skewers-techs-lack-of-diversity-on-demand-economy-at-crunchies-awards/#respond</comments>
+         <pubDate>Tue, 09 Feb 2016 05:24:00 +0000</pubDate>
+         <dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[crunchies]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274645</guid>
+         <description>The tech industry came under fire at the 9th Annual Crunchies Awards on Monday night &amp;#8211; an event which aims to celebrate the best and brightest companies, founders and investors from the startup world. The event&amp;#8217;s host, Brooklyn Nine-Nine co-star, actress, writer and comedian Chelsea Peretti, opened the evening with barbs aimed at the industry&amp;#8217;s lack of diversity, and the&amp;#8230; &lt;a href="http://techcrunch.com/2016/02/08/comedian-chelsea-peretti-skewers-techs-lack-of-diversity-on-demand-economy-at-crunchies-awards/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=QrT64THF0aM:auNsxD9rELY:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=QrT64THF0aM:auNsxD9rELY:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=QrT64THF0aM:auNsxD9rELY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=QrT64THF0aM:auNsxD9rELY:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=QrT64THF0aM:auNsxD9rELY:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=QrT64THF0aM:auNsxD9rELY:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=QrT64THF0aM:auNsxD9rELY:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=QrT64THF0aM:auNsxD9rELY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/QrT64THF0aM" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/comedian-chelsea-peretti-skewers-techs-lack-of-diversity-on-demand-economy-at-crunchies-awards/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="http://pthumbnails.5min.com/10389667/519483329_c_210_158.jpg" />
+         <media:content url="http://pthumbnails.5min.com/10389667/519483329_c_1279_727.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">Comedian%20Chelsea%20Peretti%20Skewers%20Tech%26%238217%3Bs%20Lack%20Of%20Diversity%2C%20On-Demand%20Economy%20At%20Crunchies%26nbsp%3BAwards</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">sarahintampa</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/comedian-chelsea-peretti-skewers-techs-lack-of-diversity-on-demand-economy-at-crunchies-awards/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Adobe Launches Animate CC, Previously Known As Flash Professional</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/z1Lw1MuZ-k4/</link>
+         <comments>http://techcrunch.com/2016/02/08/adobe-launches-animate-cc-previously-known-as-flash-professional/#respond</comments>
+         <pubDate>Tue, 09 Feb 2016 05:01:25 +0000</pubDate>
+         <dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[Adobe]]></category>
+         <category><![CDATA[Creative Cloud]]></category>
+         <category><![CDATA[html5]]></category>
+         <category><![CDATA[Flash]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274380</guid>
+         <description>&lt;img width="680" height="380" src="https://tctechcrunch2011.files.wordpress.com/2016/02/animate_cc.png?w=680" class="attachment-large size-large wp-post-image" alt="animate_cc" /&gt;&amp;nbsp;Adobe today officially launched Animate CC, the latest version of its animation tool for the web. Animate CC was previously known as Flash Professional, but the importance of Flash has (thankfully) declined over the last few years and the company decided it was time to rename the product to better represent what it is actually being used for. The new version of Flash Professional Animate CC,&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/adobe-launches-animate-cc-previously-known-as-flash-professional/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=z1Lw1MuZ-k4:UTOC7xkaFaQ:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=z1Lw1MuZ-k4:UTOC7xkaFaQ:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=z1Lw1MuZ-k4:UTOC7xkaFaQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=z1Lw1MuZ-k4:UTOC7xkaFaQ:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=z1Lw1MuZ-k4:UTOC7xkaFaQ:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=z1Lw1MuZ-k4:UTOC7xkaFaQ:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=z1Lw1MuZ-k4:UTOC7xkaFaQ:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=z1Lw1MuZ-k4:UTOC7xkaFaQ:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/z1Lw1MuZ-k4" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/adobe-launches-animate-cc-previously-known-as-flash-professional/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/animate_cc.png?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/animate_cc.png" type="image/png" medium="image">
+            <media:title type="html">Adobe%20Launches%20Animate%20CC%2C%20Previously%20Known%20As%20Flash%26nbsp%3BProfessional</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/animate_cc.png?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/animate_cc.png?w=150" medium="image">
+            <media:title type="html">animate_cc</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/55542aa717199728948f628edc1170b1?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">fredericlardinois</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/animate-cc_stock-and-cc-libraries-integration.png" medium="image">
+            <media:title type="html">Animate CC_Stock and CC Libraries integration</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/muse-cc_setting-breakpoint-for-responsive-layout.png" medium="image">
+            <media:title type="html">Muse CC_setting breakpoint for responsive layout</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/adobe-launches-animate-cc-previously-known-as-flash-professional/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>And The Winners Of The 9th Annual Crunchies Are…</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/E3zPOXpMeug/</link>
+         <comments>http://techcrunch.com/2016/02/08/and-the-winners-of-the-9th-annual-crunchies-are/#respond</comments>
+         <pubDate>Tue, 09 Feb 2016 04:25:33 +0000</pubDate>
+         <dc:creator><![CDATA[Frederic Lardinois,Greg Kumparak]]></dc:creator>
+         <category><![CDATA[Startups]]></category>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[crunchies]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274564</guid>
+         <description>&lt;img width="680" height="509" src="https://tctechcrunch2011.files.wordpress.com/2016/02/img_20160208_165131.jpg?w=680" class="attachment-large size-large wp-post-image" alt="IMG_20160208_165131" /&gt;&amp;nbsp;Silicon Valley is getting dressed up tonight to celebrate startups, their founders and CEOs, VCs and angels, and the products they make during our 9th Annual Crunchies awards show at the San Francisco War Memorial Opera House. Tonight&amp;#8217;s show is hosted by comedian Chelsea Peretti. &lt;a href="http://techcrunch.com/2016/02/08/and-the-winners-of-the-9th-annual-crunchies-are/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=E3zPOXpMeug:8SpRS1NR5wA:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=E3zPOXpMeug:8SpRS1NR5wA:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=E3zPOXpMeug:8SpRS1NR5wA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=E3zPOXpMeug:8SpRS1NR5wA:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=E3zPOXpMeug:8SpRS1NR5wA:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=E3zPOXpMeug:8SpRS1NR5wA:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=E3zPOXpMeug:8SpRS1NR5wA:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=E3zPOXpMeug:8SpRS1NR5wA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/E3zPOXpMeug" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/and-the-winners-of-the-9th-annual-crunchies-are/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/img_20160208_165131.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/img_20160208_165131.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">And%20The%20Winners%20Of%20The%209th%20Annual%20Crunchies%26nbsp%3BAre%26%238230%3B</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/img_20160208_165131.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/img_20160208_165131.jpg?w=150" medium="image">
+            <media:title type="html">IMG_20160208_165131</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/55542aa717199728948f628edc1170b1?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">fredericlardinois</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/img_20160208_202854.jpg" medium="image">
+            <media:title type="html">IMG_20160208_202854</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/img_20160208_203345.jpg" medium="image">
+            <media:title type="html">IMG_20160208_203345</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/img_20160208_204500.jpg" medium="image">
+            <media:title type="html">IMG_20160208_204500</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/img_3053.jpg" medium="image">
+            <media:title type="html">IMG_3053</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/and-the-winners-of-the-9th-annual-crunchies-are/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Watch The 9th Annual Crunchies, Hosted By Chelsea Peretti, Right Here</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/sATpFFBqrtE/</link>
+         <comments>http://techcrunch.com/2016/02/08/watch-the-9th-annual-crunchies-hosted-by-chelsea-peretti-right-here/#respond</comments>
+         <pubDate>Tue, 09 Feb 2016 03:45:14 +0000</pubDate>
+         <dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+         <category><![CDATA[TC]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274574</guid>
+         <description>It&amp;#8217;s a big week for San Francisco. Yesterday, the city played host to the Super Bowl and tonight, we are celebrating the startup ecosystem with our 9th Annual Crunchies award show in the swanky WSF War Memorial Opera House. You can guess which one of those I&amp;#8217;m more excited about. Tonight&amp;#8217;s show will be hosted by comedian Chelsea Peretti, and the awards will be presented by&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/watch-the-9th-annual-crunchies-hosted-by-chelsea-peretti-right-here/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=sATpFFBqrtE:H9TaU6hUFdk:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=sATpFFBqrtE:H9TaU6hUFdk:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=sATpFFBqrtE:H9TaU6hUFdk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=sATpFFBqrtE:H9TaU6hUFdk:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=sATpFFBqrtE:H9TaU6hUFdk:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=sATpFFBqrtE:H9TaU6hUFdk:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=sATpFFBqrtE:H9TaU6hUFdk:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=sATpFFBqrtE:H9TaU6hUFdk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/sATpFFBqrtE" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/watch-the-9th-annual-crunchies-hosted-by-chelsea-peretti-right-here/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:content url="http://2.gravatar.com/avatar/55542aa717199728948f628edc1170b1?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">fredericlardinois</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/watch-the-9th-annual-crunchies-hosted-by-chelsea-peretti-right-here/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>The Holy Grail of Web Scale</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/eMoi3Us-mfM/</link>
+         <pubDate>Tue, 09 Feb 2016 02:00:08 +0000</pubDate>
+         <dc:creator><![CDATA[Salil Deshpande]]></dc:creator>
+         <category><![CDATA[Column]]></category>
+         <category><![CDATA[Startups]]></category>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[web-scale technology]]></category>
+         <category><![CDATA[databases]]></category>
+         <category><![CDATA[database abstraction]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?post_type=tc_gp_submission&amp;p=1269581</guid>
+         <description>&lt;img width="680" height="510" src="https://tctechcrunch2011.files.wordpress.com/2016/02/holygrail.jpg?w=680" class="attachment-large size-large wp-post-image" alt="holygrail" /&gt;&amp;nbsp;With customers demanding access to goods and services where and when they want, and servers deluged with requests, concurrency and expectations of responsiveness, organizations of all types are focused on building &amp;#8220;web-scale&amp;#8221; systems. Initially built by companies such as Facebook and Google because their sheer size demanded it, web-scale technology has become the mantra for&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/the-holy-grail-of-web-scale/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=eMoi3Us-mfM:5cT0zELaIeE:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=eMoi3Us-mfM:5cT0zELaIeE:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=eMoi3Us-mfM:5cT0zELaIeE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=eMoi3Us-mfM:5cT0zELaIeE:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=eMoi3Us-mfM:5cT0zELaIeE:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=eMoi3Us-mfM:5cT0zELaIeE:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/eMoi3Us-mfM" height="1" width="1" alt=""/&gt;</description>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/holygrail.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/holygrail.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">The%20Holy%20Grail%20of%20Web%26nbsp%3BScale</media:title>
+         </media:content>
+         <twitter><![CDATA[salil]]></twitter>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/holygrail.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/holygrail.jpg?w=150" medium="image">
+            <media:title type="html">holygrail</media:title>
+         </media:content>
+         <media:content url="http://1.gravatar.com/avatar/1e86d9c92b3cd6f22f7af2317d348375?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">CP</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/the-holy-grail-of-web-scale/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Zenefits CEO Parker Conrad Out Amid Compliance Concerns</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/xOdvyvbXi2c/</link>
+         <comments>http://techcrunch.com/2016/02/08/zenefits-ceo-parker-conrad-out-amid-compliance-concerns/#respond</comments>
+         <pubDate>Tue, 09 Feb 2016 01:31:44 +0000</pubDate>
+         <dc:creator><![CDATA[Matthew Lynley]]></dc:creator>
+         <category><![CDATA[Startups]]></category>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[Zenfits]]></category>
+         <category><![CDATA[parker conrad]]></category>
+         <category><![CDATA[david sacks]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274582</guid>
+         <description>&lt;img width="680" height="453" src="https://tctechcrunch2011.files.wordpress.com/2015/09/zenefits-6.jpg?w=680" class="attachment-large size-large wp-post-image" alt="zenefits 6" /&gt;&amp;nbsp;There&amp;#8217;s a big shuffle happening at Zenefits today &amp;#8212; with Zenefits CEO Parker Conrad exiting the company and COO David Sacks taking over. Conrad is also stepping down as a director of the company. In an email to employees, Sacks noted that compliance issues that have plagued the company contributed to Conrad&amp;#8217;s exit. Zenefits has hit significant turbulence, including&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/zenefits-ceo-parker-conrad-out-amid-compliance-concerns/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=xOdvyvbXi2c:FFvavlGyNTM:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=xOdvyvbXi2c:FFvavlGyNTM:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=xOdvyvbXi2c:FFvavlGyNTM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=xOdvyvbXi2c:FFvavlGyNTM:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=xOdvyvbXi2c:FFvavlGyNTM:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=xOdvyvbXi2c:FFvavlGyNTM:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=xOdvyvbXi2c:FFvavlGyNTM:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=xOdvyvbXi2c:FFvavlGyNTM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/xOdvyvbXi2c" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/zenefits-ceo-parker-conrad-out-amid-compliance-concerns/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/09/zenefits-6.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2015/09/zenefits-6.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">Zenefits%20CEO%20Parker%20Conrad%20Out%20Amid%20Compliance%26nbsp%3BConcerns</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2015/09/zenefits-6.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2015/09/zenefits-6.jpg?w=150" medium="image">
+            <media:title type="html">zenefits 6</media:title>
+         </media:content>
+         <media:content url="http://0.gravatar.com/avatar/fb80ccc18c4fecace4405aebe8fbedbc?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">matthewlynley</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/zenefits-ceo-parker-conrad-out-amid-compliance-concerns/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>NASA Releases 360-Degree Video Of Martian Surface</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/ohRL_DNYulE/</link>
+         <comments>http://techcrunch.com/2016/02/08/nasa-releases-360-degree-video-of-martian-surface/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 22:36:32 +0000</pubDate>
+         <dc:creator><![CDATA[Emily Calandrelli]]></dc:creator>
+         <category><![CDATA[Space]]></category>
+         <category><![CDATA[mars]]></category>
+         <category><![CDATA[Curiosity]]></category>
+         <category><![CDATA[rover]]></category>
+         <category><![CDATA[NASA]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274518</guid>
+         <description>&lt;img width="680" height="315" src="https://tctechcrunch2011.files.wordpress.com/2016/02/curiosity-panarama-e1454969078629.jpg?w=680" class="attachment-large size-large wp-post-image" alt="Curiosity panarama" /&gt;&amp;nbsp;Today, NASA&amp;#8217;s Jet Propulsion Laboratory released a new 360-degree video, giving you a virtual tour of the Martian surface. The video was created by stitching together images taken by the Mars Curiosity Rover on December 18th, 2015. The scene takes place at Namib Dune with a view of Mount Sharp on the horizon. Curiosity&amp;#8217;s Mast Camera took the images on the 1,197th sol (a Martian&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/nasa-releases-360-degree-video-of-martian-surface/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ohRL_DNYulE:4FO1mBsoRFc:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ohRL_DNYulE:4FO1mBsoRFc:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ohRL_DNYulE:4FO1mBsoRFc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ohRL_DNYulE:4FO1mBsoRFc:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ohRL_DNYulE:4FO1mBsoRFc:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ohRL_DNYulE:4FO1mBsoRFc:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ohRL_DNYulE:4FO1mBsoRFc:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ohRL_DNYulE:4FO1mBsoRFc:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/ohRL_DNYulE" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/nasa-releases-360-degree-video-of-martian-surface/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/curiosity-panarama-e1454969078629.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/curiosity-panarama-e1454969078629.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">NASA%20Releases%20360-Degree%20Video%20Of%20Martian%26nbsp%3BSurface</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/curiosity-panarama-e1454969078629.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/curiosity-panarama-e1454969078629.jpg?w=150" medium="image">
+            <media:title type="html">Curiosity panarama</media:title>
+         </media:content>
+         <media:content url="http://0.gravatar.com/avatar/9708715c00e644da23e87a694797459c?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">emcalthespacegal</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/curiosity-selfie.jpg?w=281" medium="image">
+            <media:title type="html">curiosity selfie</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/curiosity-cameras.jpg?w=300" medium="image">
+            <media:title type="html">Curiosity's 17 cameras / Image courtesy of NASA</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/nasa-releases-360-degree-video-of-martian-surface/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>CBS Says Super Bowl 50 Broke Streaming Records With 3.96 Million Unique Viewers</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/CTraHtEOBxY/</link>
+         <comments>http://techcrunch.com/2016/02/08/cbs-says-super-bowl-50-broke-streaming-records-with-3-96-million-viewers/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 22:35:12 +0000</pubDate>
+         <dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+         <category><![CDATA[TC]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274312</guid>
+         <description>&lt;img width="680" height="383" src="https://tctechcrunch2011.files.wordpress.com/2016/02/shutterstock_340152863.jpg?w=680" class="attachment-large size-large wp-post-image" alt="football laptop" /&gt;&amp;nbsp;CBS reported earlier this morning that its live stream of Super Bowl 50 broke all prior streaming records for the big game. Now the network has released numbers to back up that claim: according to an announcement released this afternoon, 3.96 million unique viewers tuned in to watch the Broncos versus the Panthers across laptops, desktops, tablets, connected TV devices and mobile phones.&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/cbs-says-super-bowl-50-broke-streaming-records-with-3-96-million-viewers/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=CTraHtEOBxY:-AqPEDjHrog:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=CTraHtEOBxY:-AqPEDjHrog:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=CTraHtEOBxY:-AqPEDjHrog:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=CTraHtEOBxY:-AqPEDjHrog:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=CTraHtEOBxY:-AqPEDjHrog:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=CTraHtEOBxY:-AqPEDjHrog:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=CTraHtEOBxY:-AqPEDjHrog:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=CTraHtEOBxY:-AqPEDjHrog:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/CTraHtEOBxY" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/cbs-says-super-bowl-50-broke-streaming-records-with-3-96-million-viewers/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/shutterstock_340152863.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/shutterstock_340152863.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">CBS%20Says%20Super%20Bowl%2050%20Broke%20Streaming%20Records%20With%203.96%20Million%20Unique%26nbsp%3BViewers</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/shutterstock_340152863.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/shutterstock_340152863.jpg?w=150" medium="image">
+            <media:title type="html">football laptop</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">sarahintampa</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/super_bowl_live_watch-v4.jpg?w=680" medium="image">
+            <media:title type="html">super_bowl_live_watch-v4</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/cbs-says-super-bowl-50-broke-streaming-records-with-3-96-million-viewers/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Opera Postpones Earnings Release As Takeover Rumors Swirl</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/3nSCek-gqPA/</link>
+         <comments>http://techcrunch.com/2016/02/08/opera-postpones-earnings-release-as-takeover-rumors-swirl/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 22:15:17 +0000</pubDate>
+         <dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+         <category><![CDATA[TC]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274521</guid>
+         <description>&lt;img width="680" height="428" src="https://tctechcrunch2011.files.wordpress.com/2016/02/opera-new-logo-brand-identity-portal-to-web-1024x644.jpg?w=680" class="attachment-large size-large wp-post-image" alt="opera-new-logo-brand-identity-portal-to-web-1024x644" /&gt;&amp;nbsp;Last Friday, the Oslo stock exchange decided to halt trading in Opera Software&amp;#8217;s shares after rumors of a potential takeover by Chinese security firm Qihoo 360 appeared in a Norwegian newspaper. Trading in Opera shares is still suspended today (which is a pretty unusual move) and now Opera itself is adding fire to the takeover rumors by postponing its planned earnings call from&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/opera-postpones-earnings-release-as-takeover-rumors-swirl/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=3nSCek-gqPA:XOrHD9-LIfo:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=3nSCek-gqPA:XOrHD9-LIfo:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=3nSCek-gqPA:XOrHD9-LIfo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=3nSCek-gqPA:XOrHD9-LIfo:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=3nSCek-gqPA:XOrHD9-LIfo:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=3nSCek-gqPA:XOrHD9-LIfo:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=3nSCek-gqPA:XOrHD9-LIfo:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=3nSCek-gqPA:XOrHD9-LIfo:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/3nSCek-gqPA" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/opera-postpones-earnings-release-as-takeover-rumors-swirl/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/opera-new-logo-brand-identity-portal-to-web-1024x644.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/opera-new-logo-brand-identity-portal-to-web-1024x644.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">Opera%20Postpones%20Earnings%20Release%20As%20Takeover%20Rumors%26nbsp%3BSwirl</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/opera-new-logo-brand-identity-portal-to-web-1024x644.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/opera-new-logo-brand-identity-portal-to-web-1024x644.jpg?w=150" medium="image">
+            <media:title type="html">opera-new-logo-brand-identity-portal-to-web-1024x644</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/55542aa717199728948f628edc1170b1?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">fredericlardinois</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/opera-postpones-earnings-release-as-takeover-rumors-swirl/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Health And Fitness Data Is Useless</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/w_zldT-ZQNk/</link>
+         <comments>http://techcrunch.com/2016/02/08/health-and-fitness-data-is-useless/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 22:00:25 +0000</pubDate>
+         <dc:creator><![CDATA[Hanson Lenyoun]]></dc:creator>
+         <category><![CDATA[Column]]></category>
+         <category><![CDATA[Health]]></category>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[wearables]]></category>
+         <category><![CDATA[fitness trackers]]></category>
+         <category><![CDATA[Health tech]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1273680</guid>
+         <description>&lt;img width="680" height="453" src="https://tctechcrunch2011.files.wordpress.com/2016/02/hamsterwheel.jpg?w=680" class="attachment-large size-large wp-post-image" alt="hamsterwheel" /&gt;&amp;nbsp;Data is hot right now. We generate tons of it, but most of it sits there, latent, unused and useless. This is particularly pronounced when it comes to health and fitness data, where we strap on our fitness trackers and expect the pounds to melt away with each step passively logged. But we haven&amp;#8217;t seen a dramatic improvement in our nation&amp;#8217;s health with the emergence of the&amp;#8230; &lt;a href="http://techcrunch.com/2016/02/08/health-and-fitness-data-is-useless/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=w_zldT-ZQNk:7_OU08JIQNo:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=w_zldT-ZQNk:7_OU08JIQNo:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=w_zldT-ZQNk:7_OU08JIQNo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=w_zldT-ZQNk:7_OU08JIQNo:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=w_zldT-ZQNk:7_OU08JIQNo:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=w_zldT-ZQNk:7_OU08JIQNo:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=w_zldT-ZQNk:7_OU08JIQNo:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=w_zldT-ZQNk:7_OU08JIQNo:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/w_zldT-ZQNk" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/health-and-fitness-data-is-useless/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/hamsterwheel.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/hamsterwheel.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">Health%20And%20Fitness%20Data%20Is%26nbsp%3BUseless</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/hamsterwheel.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/hamsterwheel.jpg?w=150" medium="image">
+            <media:title type="html">hamsterwheel</media:title>
+         </media:content>
+         <media:content url="http://1.gravatar.com/avatar/1e86d9c92b3cd6f22f7af2317d348375?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">CP</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/health-and-fitness-data-is-useless/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Apartments.com, Mobile Strike &amp; Amazon Scored The Top Spots Among Tech Companies’ Super Bowl Ads</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/UJ5NxLc6C4M/</link>
+         <comments>http://techcrunch.com/2016/02/08/apartments-com-mobile-strike-amazon-scored-the-top-spots-among-tech-companies-super-bowl-ads/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 21:35:57 +0000</pubDate>
+         <dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[Ads]]></category>
+         <category><![CDATA[super bowl]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274468</guid>
+         <description>&lt;img width="680" height="382" src="https://tctechcrunch2011.files.wordpress.com/2016/02/marino-baldwin-superbowl-50.jpg?w=680" class="attachment-large size-large wp-post-image" alt="marino-baldwin-superbowl-50" /&gt;&amp;nbsp;A number of technology companies took to the airwaves during last night&amp;#8217;s Super Bowl 50 broadcast to make their names &amp;#8211; and brands &amp;#8211; better known among a mainstream audience. However, according to new data out today from TiVo, which historically tracks viewer engagement with Super Bowl ads across its network, the only tech company to make into the list of the top 10 Super&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/apartments-com-mobile-strike-amazon-scored-the-top-spots-among-tech-companies-super-bowl-ads/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=UJ5NxLc6C4M:qc9cqTErbHo:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=UJ5NxLc6C4M:qc9cqTErbHo:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=UJ5NxLc6C4M:qc9cqTErbHo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=UJ5NxLc6C4M:qc9cqTErbHo:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=UJ5NxLc6C4M:qc9cqTErbHo:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=UJ5NxLc6C4M:qc9cqTErbHo:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=UJ5NxLc6C4M:qc9cqTErbHo:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=UJ5NxLc6C4M:qc9cqTErbHo:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/UJ5NxLc6C4M" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/apartments-com-mobile-strike-amazon-scored-the-top-spots-among-tech-companies-super-bowl-ads/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/marino-baldwin-superbowl-50.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/marino-baldwin-superbowl-50.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">Apartments.com%2C%20Mobile%20Strike%20%26amp%3B%20Amazon%20Scored%20The%20Top%20Spots%20Among%20Tech%20Companies%26%238217%3B%20Super%20Bowl%26nbsp%3BAds</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/marino-baldwin-superbowl-50.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/marino-baldwin-superbowl-50.jpg?w=150" medium="image">
+            <media:title type="html">marino-baldwin-superbowl-50</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">sarahintampa</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-1-41-22-pm2.png?w=680" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 1.41.22 PM</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/apartments-com-mobile-strike-amazon-scored-the-top-spots-among-tech-companies-super-bowl-ads/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Instagram Finally Makes It Easy To Use Multiple Accounts</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/nZf69c3m9QA/</link>
+         <comments>http://techcrunch.com/2016/02/08/instagram-finally-makes-it-easy-to-use-multiple-accounts/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 21:12:42 +0000</pubDate>
+         <dc:creator><![CDATA[Jay Donovan]]></dc:creator>
+         <category><![CDATA[Mobile]]></category>
+         <category><![CDATA[TC]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274495</guid>
+         <description>&lt;img width="200" height="195" src="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-3-49-07-pm1.png?w=200" class="attachment-large size-large wp-post-image" alt="Screen Shot 2016-02-08 at 3.49.07 PM" /&gt;&amp;nbsp;&amp;#8230;and Social Media Managers everywhere rejoice! &lt;a href="http://techcrunch.com/2016/02/08/instagram-finally-makes-it-easy-to-use-multiple-accounts/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nZf69c3m9QA:hS--0rfZ2N0:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nZf69c3m9QA:hS--0rfZ2N0:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nZf69c3m9QA:hS--0rfZ2N0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nZf69c3m9QA:hS--0rfZ2N0:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=nZf69c3m9QA:hS--0rfZ2N0:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nZf69c3m9QA:hS--0rfZ2N0:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=nZf69c3m9QA:hS--0rfZ2N0:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nZf69c3m9QA:hS--0rfZ2N0:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/nZf69c3m9QA" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/instagram-finally-makes-it-easy-to-use-multiple-accounts/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-3-49-07-pm1.png?w=200&amp;h=158&amp;crop=1" />
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-3-49-07-pm1.png?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-3-49-07-pm1.png?w=150" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 3.49.07 PM</media:title>
+         </media:content>
+         <media:content url="http://0.gravatar.com/avatar/6daa3435dba08780d9e786be094ba75b?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">tcjaydonovan</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-3-41-44-pm.png" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 3.41.44 PM</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/insta.jpg?w=383" medium="image">
+            <media:title type="html">insta</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/instagram-finally-makes-it-easy-to-use-multiple-accounts/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Free Basics And Facebook’s Waterloo In India</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/JLhemPOZidk/</link>
+         <comments>http://techcrunch.com/2016/02/08/free-basics-and-facebooks-waterloo-in-india/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 20:30:47 +0000</pubDate>
+         <dc:creator><![CDATA[Vivek Wadhwa]]></dc:creator>
+         <category><![CDATA[Column]]></category>
+         <category><![CDATA[TC]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274454</guid>
+         <description>&lt;img width="680" height="453" src="https://tctechcrunch2011.files.wordpress.com/2016/02/13968007417_a3313a4c02_k.jpg?w=680" class="attachment-large size-large wp-post-image" alt="13968007417_a3313a4c02_k" /&gt;&amp;nbsp;The project was ill-conceived and showed a lack of understanding of India&amp;#8217;s culture and values. Mark Zuckerberg surely had good intentions in wanting to provide Internet access to hundreds of millions of people who lack access.  But he went about it in the wrong way. &lt;a href="http://techcrunch.com/2016/02/08/free-basics-and-facebooks-waterloo-in-india/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JLhemPOZidk:6fphvML5YuQ:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JLhemPOZidk:6fphvML5YuQ:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JLhemPOZidk:6fphvML5YuQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JLhemPOZidk:6fphvML5YuQ:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=JLhemPOZidk:6fphvML5YuQ:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JLhemPOZidk:6fphvML5YuQ:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=JLhemPOZidk:6fphvML5YuQ:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JLhemPOZidk:6fphvML5YuQ:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/JLhemPOZidk" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/free-basics-and-facebooks-waterloo-in-india/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/13968007417_a3313a4c02_k.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/13968007417_a3313a4c02_k.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">Free%20Basics%20And%20Facebook%26%238217%3Bs%20Waterloo%20In%26nbsp%3BIndia</media:title>
+         </media:content>
+         <twitter><![CDATA[wadhwa]]></twitter>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/13968007417_a3313a4c02_k.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/13968007417_a3313a4c02_k.jpg?w=150" medium="image">
+            <media:title type="html">13968007417_a3313a4c02_k</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/5633afc3b452c34446afd2ae0174cf86?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">shieberj</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/free-basics-and-facebooks-waterloo-in-india/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>A Look At The Marketplace Lending Originator Ecosystem</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/fHUXls8Y9Bs/</link>
+         <comments>http://techcrunch.com/2016/02/08/follow-the-money-2/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 19:00:20 +0000</pubDate>
+         <dc:creator><![CDATA[Michael Gilroy]]></dc:creator>
+         <category><![CDATA[Column]]></category>
+         <category><![CDATA[Finance]]></category>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[marketplace lending]]></category>
+         <category><![CDATA[fintech]]></category>
+         <category><![CDATA[e-commerce]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1273558</guid>
+         <description>&lt;img width="680" height="425" src="https://tctechcrunch2011.files.wordpress.com/2016/02/moneytrail.jpg?w=680" class="attachment-large size-large wp-post-image" alt="moneytrail" /&gt;&amp;nbsp;At the end of 2015, Canaan hosted its first FinTech Central event, which included a panel that had leaders from across the marketplace lending originator ecosystem. A marketplace lending originator is a company that sells loans online using retail, institutional and bank capital. Over the last few years, marketplace lenders (MPLs) have created massive businesses by providing capital to&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/follow-the-money-2/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fHUXls8Y9Bs:VgIWr6-mBpo:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fHUXls8Y9Bs:VgIWr6-mBpo:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fHUXls8Y9Bs:VgIWr6-mBpo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fHUXls8Y9Bs:VgIWr6-mBpo:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=fHUXls8Y9Bs:VgIWr6-mBpo:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fHUXls8Y9Bs:VgIWr6-mBpo:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=fHUXls8Y9Bs:VgIWr6-mBpo:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=fHUXls8Y9Bs:VgIWr6-mBpo:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/fHUXls8Y9Bs" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/follow-the-money-2/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/moneytrail.jpg?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/moneytrail.jpg" type="image/jpeg" medium="image">
+            <media:title type="html">A%20Look%20At%20The%20Marketplace%20Lending%20Originator%26nbsp%3BEcosystem</media:title>
+         </media:content>
+         <twitter><![CDATA[MBGilroy]]></twitter>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/moneytrail.jpg?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/moneytrail.jpg?w=150" medium="image">
+            <media:title type="html">moneytrail</media:title>
+         </media:content>
+         <media:content url="http://1.gravatar.com/avatar/1e86d9c92b3cd6f22f7af2317d348375?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">CP</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/follow-the-money-2/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>AngelList Raised $163M For Startups in 2015, Up 56% Year-Over-Year</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/t1uQMDsdmA0/</link>
+         <comments>http://techcrunch.com/2016/02/08/angellist-raised-163m-for-startups-in-2015-up-56-year-over-year/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 18:44:17 +0000</pubDate>
+         <dc:creator><![CDATA[Kim-Mai Cutler]]></dc:creator>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[Angellist]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274415</guid>
+         <description>&lt;img width="640" height="480" src="https://tctechcrunch2011.files.wordpress.com/2014/03/angellist.png?w=640" class="attachment-large size-large wp-post-image" alt="angellist" /&gt;&amp;nbsp;AngelList, the online platform that had made itself indispensable to early-stage startups for fundraising and recruiting, said it closed out last year having raised $163 million online on behalf of 441 companies. That&amp;#8217;s about 56 percent higher than the year before in 2014. About 40 percent of the deals were private rounds and institutional funds were in about 40 percent of rounds&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/angellist-raised-163m-for-startups-in-2015-up-56-year-over-year/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=t1uQMDsdmA0:mZjesssuCBU:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=t1uQMDsdmA0:mZjesssuCBU:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=t1uQMDsdmA0:mZjesssuCBU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=t1uQMDsdmA0:mZjesssuCBU:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=t1uQMDsdmA0:mZjesssuCBU:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=t1uQMDsdmA0:mZjesssuCBU:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=t1uQMDsdmA0:mZjesssuCBU:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=t1uQMDsdmA0:mZjesssuCBU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/t1uQMDsdmA0" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/angellist-raised-163m-for-startups-in-2015-up-56-year-over-year/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2014/03/angellist.png?w=210&amp;h=158&amp;crop=1" />
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/03/angellist.png?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2014/03/angellist.png?w=150" medium="image">
+            <media:title type="html">angellist</media:title>
+         </media:content>
+         <media:content url="http://0.gravatar.com/avatar/c4dad53149dd9c712936e1b27c1c1e9f?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">kimmaicutler</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-25-20-am.png" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 10.25.20 AM</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-25-30-am.png" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 10.25.30 AM</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-25-40-am.png" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 10.25.40 AM</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-25-46-am.png" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 10.25.46 AM</media:title>
+         </media:content>
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-25-54-am.png" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 10.25.54 AM</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/angellist-raised-163m-for-startups-in-2015-up-56-year-over-year/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Tribe Is A Nifty Walkie-Talkie App</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/_yo0INnXiA8/</link>
+         <comments>http://techcrunch.com/2016/02/08/tribe-is-a-nifty-walkie-talkie-app/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 18:39:59 +0000</pubDate>
+         <dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+         <category><![CDATA[Apps]]></category>
+         <category><![CDATA[Mobile]]></category>
+         <category><![CDATA[Social]]></category>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[Tribe]]></category>
+         <category><![CDATA[France Newsletter]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274351</guid>
+         <description>&lt;img width="680" height="453" src="https://tctechcrunch2011.files.wordpress.com/2016/02/tribe.png?w=680" class="attachment-large size-large wp-post-image" alt="Tribe" /&gt;&amp;nbsp;Meet Tribe, a new social app for iOS and Android that is going head-to-head against Taptalk, Snapchat and countless of other social messaging apps. Tribe is an interesting take on messaging thanks to its heavy focus on video and neat design. &lt;a href="http://techcrunch.com/2016/02/08/tribe-is-a-nifty-walkie-talkie-app/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=_yo0INnXiA8:ycY227OI1TE:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=_yo0INnXiA8:ycY227OI1TE:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=_yo0INnXiA8:ycY227OI1TE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=_yo0INnXiA8:ycY227OI1TE:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=_yo0INnXiA8:ycY227OI1TE:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=_yo0INnXiA8:ycY227OI1TE:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=_yo0INnXiA8:ycY227OI1TE:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=_yo0INnXiA8:ycY227OI1TE:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/_yo0INnXiA8" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/tribe-is-a-nifty-walkie-talkie-app/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/tribe.png?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/tribe.png" type="image/png" medium="image">
+            <media:title type="html">Tribe%20Is%20A%20Nifty%20Walkie-Talkie%26nbsp%3BApp</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/tribe.png?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/tribe.png?w=150" medium="image">
+            <media:title type="html">Tribe</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/2e71de62bf8a99d74a58f1546494fe82?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">romaindillet</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/tribe-is-a-nifty-walkie-talkie-app/?ncid=rss</feedburner:origLink>
+      </item>
+      <item>
+         <title>Benchmark Adds A Sixth General Partner: Scott Belsky</title>
+         <link>http://feedproxy.google.com/~r/Techcrunch/~3/tq2htuAqP78/</link>
+         <comments>http://techcrunch.com/2016/02/08/benchmark-adds-a-sixth-general-partner-scott-belsky/#respond</comments>
+         <pubDate>Mon, 08 Feb 2016 18:34:48 +0000</pubDate>
+         <dc:creator><![CDATA[Connie Loizos]]></dc:creator>
+         <category><![CDATA[TC]]></category>
+         <category><![CDATA[Benchmark]]></category>
+         <category><![CDATA[Scott Belsky]]></category>
+         <guid isPermaLink="false">http://techcrunch.com/?p=1274410</guid>
+         <description>&lt;img width="680" height="384" src="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-33-56-am.png?w=680" class="attachment-large size-large wp-post-image" alt="Screen Shot 2016-02-08 at 10.33.56 AM" /&gt;&amp;nbsp;Early-stage venture firm Benchmark has added a sixth general partner to its roster: 35-year-old Scott Belsky, a former Goldman Sachs associate who went on to cofound the New York company Behance, an online platform for graphic designers, illustrators, photographers, web designers, and art directors to showcase their skills. Adobe acquired Behance in 2012 for more than $150 million in cash&amp;hellip; &lt;a href="http://techcrunch.com/2016/02/08/benchmark-adds-a-sixth-general-partner-scott-belsky/?ncid=rss"&gt;Read More&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tq2htuAqP78:-E9XnuCdt5g:2mJPEYqXBVI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tq2htuAqP78:-E9XnuCdt5g:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tq2htuAqP78:-E9XnuCdt5g:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tq2htuAqP78:-E9XnuCdt5g:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=tq2htuAqP78:-E9XnuCdt5g:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tq2htuAqP78:-E9XnuCdt5g:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?i=tq2htuAqP78:-E9XnuCdt5g:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tq2htuAqP78:-E9XnuCdt5g:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/Techcrunch/~4/tq2htuAqP78" height="1" width="1" alt=""/&gt;</description>
+         <wfw:commentRss>http://techcrunch.com/2016/02/08/benchmark-adds-a-sixth-general-partner-scott-belsky/feed/</wfw:commentRss>
+         <slash:comments>0</slash:comments>
+         <media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-33-56-am.png?w=210&amp;h=158&amp;crop=1" />
+         <media:content url="https://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-33-56-am.png" type="image/png" medium="image">
+            <media:title type="html">Benchmark%20Adds%20A%20Sixth%20General%20Partner%3A%20Scott%26nbsp%3BBelsky</media:title>
+         </media:content>
+         <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-33-56-am.png?w=150" />
+         <media:content url="http://tctechcrunch2011.files.wordpress.com/2016/02/screen-shot-2016-02-08-at-10-33-56-am.png?w=150" medium="image">
+            <media:title type="html">Screen Shot 2016-02-08 at 10.33.56 AM</media:title>
+         </media:content>
+         <media:content url="http://2.gravatar.com/avatar/52bc07c5a4dde8dabe873328ca360e36?s=96&amp;d=identicon&amp;r=G" medium="image">
+            <media:title type="html">connieloizos</media:title>
+         </media:content>
+         <feedburner:origLink>http://techcrunch.com/2016/02/08/benchmark-adds-a-sixth-general-partner-scott-belsky/?ncid=rss</feedburner:origLink>
+      </item>
+   </channel>
+</rss>

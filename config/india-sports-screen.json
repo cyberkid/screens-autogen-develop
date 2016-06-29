@@ -1,0 +1,63 @@
+{
+  "displayName" : "India Sports",
+  "screen-uuid" : "3edbb3f8-d28d-4f69-bf75-7f7bf086ab2f",
+  "username" : "eglover",
+  "partnerid" : "4041472252",
+  "displayIcon":"india_sports.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+
+  "ranking-function":"interleave",
+  "screen-file-name" : "d3f4b165-6d4a-4b69-b460-68434ee5e15a.json",
+  "screen-config-base" : "./config/india-sports-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["All"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["in"],
+  "interests" : ["sports"],
+
+  "sources" : [
+    {
+      "name" : "ibnlive-sports",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "ibnlive",
+      "grouping" : "ibnlive",
+      "source" : "http://www.ibnlive.com/rss/sports.xml",
+      "enabled" : true,
+      "tags" : ["Sports"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"indianexpress-sports",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "indianexpress",
+      "grouping" : "indianexpress",
+      "source" : "http://indianexpress.com/section/sports/feed/",
+      "enabled" : true,
+      "tags" : ["Sports"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"ndtv-sports",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "ndtv",
+      "grouping" : "ndtv",
+      "source" : "http://feeds.feedburner.com/NDTV-Sports",
+      "enabled" : true,
+      "tags" : ["Sports"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "screenId": "/screen/cb1782ae-4395-4d1d-ab9a-bf54192c4b42",
+  "id": "5159820b-b228-4189-b24f-b5b27fe538f8",
+  "version": 1453363228,
+  "displayName": "Sports and Cricket (India)",
+  "displayIcon": "/assets/IndiaScreenIcon.png",
+  "tags": [
+    "Dynamic",
+    "Dynamic India"
+  ],
+  "matchedQueries": [
+    "Automatic"
+  ],
+  "categoryPaths": [
+    "/India/All",
+    "/India/sports"
+  ],
+  "searchBarWidgets": [
+    {
+      "simpleQueryListWidget": {
+        "id": "query_list_01",
+        "queryList": [
+          {
+            "displayName": "Taxi",
+            "query": "Taxi apps",
+            "iconUrl": "/assets/simpleQueryList/taxi.png"
+          },
+          {
+            "displayName": "Food",
+            "query": "Food apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/restaurant.png"
+          },
+          {
+            "displayName": "Shopping",
+            "query": "Shopping apps",
+            "iconUrl": "4041472252/simpleQueryList/shopping.png"
+          }
+        ]
+      },
+      "id": "wall_searchbar",
+      "config": {
+        "suggest": false,
+        "iconTray": false,
+        "searchParams": {
+          "searchScope": [
+            "app_search"
+          ]
+        },
+        "simpleQueryList": true
+      }
+    }
+  ],
+  "cardListWidgets": [
+
+  ]
+}

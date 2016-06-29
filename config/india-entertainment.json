@@ -1,0 +1,236 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "6e9af06b-9943-43fe-b78d-f2f6cb5825e9.json",
+  "screen-config-base" : "./config/india-entertainment-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Movies", "Music", "TV", "Telugu", "Hindi"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["in"],
+  "interests" : ["Movies"],
+
+  "sources" : [
+    {
+      "name" : "bookmyshow-entertainment",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "bookmyshow",
+      "grouping" : "bookmyshow",
+      "source" : "http://in.bookmyshow.com/entertainment/feed",
+      "enabled" : true,
+      "tags" : ["Movies"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"rediff-movies",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "rediff",
+      "grouping" : "rediff",
+      "source" : "http://www.rediff.com/rss/moviesreviewsrss.xml",
+      "enabled" : true,
+      "tags" : ["Movies"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"ibmlive-movies",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "ibnlive",
+      "grouping" : "ibnlive",
+      "source" : "http://www.ibnlive.com/rss/movies.xml",
+      "enabled" : true,
+      "tags" : ["Movies"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+
+
+    {
+      "name" :"nowrunning-telugu-movie-stills",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/moviestills_telugu.xml",
+      "enabled" : true,
+      "tags" : ["Telugu"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-telugu-movie-previews",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/previews_telugu.xml",
+      "enabled" : true,
+      "tags" : ["Telugu"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-telugu-movie-reviews",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/reviews_telugu.xml",
+      "enabled" : true,
+      "tags" : ["Telugu"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-telugu-movie-trailers",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/trailers_telugu.xml",
+      "enabled" : true,
+      "tags" : ["Telugu"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-telugu-movie-news",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/news_telugu.xml",
+      "enabled" : true,
+      "tags" : ["Telugu"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-telugu-movie-events",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/events_telugu.xml",
+      "enabled" : true,
+      "tags" : ["Telugu"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-telugu-movies",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/main_telugu.xml",
+      "enabled" : true,
+      "tags" : ["Telugu"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+
+
+    {
+      "name" :"nowrunning-hindi-movie-videos",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/broadband_hindi.xml",
+      "enabled" : true,
+      "tags" : ["Hindi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-hindi-movie-stills",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/moviestills_hindi.xml",
+      "enabled" : true,
+      "tags" : ["Hindi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-hindi-movie-previews",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/previews_hindi.xml",
+      "enabled" : true,
+      "tags" : ["Hindi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-hindi-movie-reviews",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/reviews_hindi.xml",
+      "enabled" : true,
+      "tags" : ["Hindi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-hindi-movie-trailers",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/trailers_hindi.xml",
+      "enabled" : true,
+      "tags" : ["Hindi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-hindi-movie-news",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/news_hindi.xml",
+      "enabled" : true,
+      "tags" : ["Hindi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-hindi-movie-events",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/bollywoodevents.xml",
+      "enabled" : true,
+      "tags" : ["Hindi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"nowrunning-hindi-movies",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nowrunning",
+      "grouping" : "nowrunning",
+      "source" : "http://www.nowrunning.com/cgi-bin/rss/main_hindi.xml",
+      "enabled" : true,
+      "tags" : ["Hindi"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "screenId": "/screen/a905644c-6b36-47d5-bae7-5bd760fbd6ff",
+  "id": "f7226ff0-7aeb-4dfc-8bbd-e23d7a9d4424",
+  "version": 1453363228,
+  "displayName": "Glamour",
+  "displayIcon": "/assets/shoes.png",
+  "tags": [
+    "Dynamic",
+    "Dynamic US"
+  ],
+  "matchedQueries": [
+    "Automatic"
+  ],
+  "categoryPaths": [
+    "/US/Test"
+  ],
+  "searchBarWidgets": [
+    {
+      "simpleQueryListWidget": {
+        "id": "query_list_01",
+        "queryList": [
+          {
+            "displayName": "Taxi",
+            "query": "Taxi apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/taxi.png"
+          },
+          {
+            "displayName": "Food",
+            "query": "Food apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/restaurant.png"
+          },
+          {
+            "displayName": "Shopping",
+            "query": "Shopping apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/shopping.png"
+          }
+        ]
+      },
+      "id": "wall_searchbar",
+      "config": {
+        "suggest": false,
+        "iconTray": false,
+        "searchParams": {
+          "searchScope": [
+            "app_search"
+          ]
+        },
+        "simpleQueryList": true
+      }
+    }
+  ],
+  "cardListWidgets": [
+
+  ]
+}

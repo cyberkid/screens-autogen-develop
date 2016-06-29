@@ -1,0 +1,92 @@
+{
+  "displayName":"Campus Roll",
+  "screen-file-name":"8067cc4d-c8ab-440a-985a-e76f906d6af7.json",
+  "screen-uuid":"0372ae24-4af9-46ad-80d0-0a2426240c98",
+  "username":"vishvesh",
+  "screen-config-base":"./config/campus-roll-screen-cfg.json",
+  "tag_order":[
+    "TOP STORIES"
+  ],
+  "interests":[
+    "college",
+    "education"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"Campus-Roll.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"univexpress-customfetcher",
+      "fetcher":"universityex",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.universityex.com/category/stories/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"youthincmag-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/YouthincMag/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"india-fuccha-blog",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.fuccha.in/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"univexpress-news-customfetcher",
+      "fetcher":"universityex",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.universityex.com/category/news/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"dubeat-customfetcher",
+      "fetcher":"dubeat",
+      "furl_generator":"embedly_rss",
+      "source":"http://dubeat.com/category/campus-central-delhi-university/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+furl,score,interests,countries
+func://weather.yahoo.com/showWeatherAtCity/,95,"local, weather","us,in"
+func://uber.com/setPickupForCurrentLocation,90,"local, taxi","us,in"

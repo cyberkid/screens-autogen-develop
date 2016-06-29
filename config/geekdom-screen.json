@@ -1,0 +1,105 @@
+{
+  "displayName":"Geekdom",
+  "screen-file-name":"1cfe574a-c29e-4200-89fb-0eb978c6ea8d.json",
+  "screen-uuid":"edf4d111-7bc7-4fa6-b086-bc1482c3a67f",
+  "username":"vishvesh",
+  "screen-config-base":"./config/geekdom-screen-cfg.json",
+  "tag_order":[
+    "TOP STORIES",
+    "QUICK HACKS"
+  ],
+  "interests":[
+    "technology"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":20,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"ycombinator-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"https://news.ycombinator.com/rss",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"producthunt-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.producthunt.com/feed",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name" : "TechCrunch-main",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "techcrunch",
+      "grouping" : "techcrunch",
+      "source" : "http://feeds.feedburner.com/TechCrunch/",
+      "enabled" : true,
+      "tags" : ["TOP STORIES"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "Lifehacker-main",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "lifehacker",
+      "grouping" : "lifehacker",
+      "source" : "http://feeds.gawker.com/lifehacker/full.xml#_ga=1.181164135.153057568.1451969753",
+      "enabled" : true,
+      "tags" : ["QUICK HACKS"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"reddit-netsec",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "reddit",
+      "grouping" : "reddit",
+      "source" : "https://www.reddit.com/r/netsec/hot.rss",
+      "enabled" : true,
+      "tags" : ["QUICK HACKS"],
+      "max_items" : 10,
+      "user_agent" : "Linux:ScreenGenerator:v1.0.0 (by eric_quixey_sc@ericglover.com)",
+      "skip" : 2
+    },
+    {
+      "name" :"recode",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "recode",
+      "grouping" : "recode",
+      "source" : "http://recode.net/feed/",
+      "enabled" : true,
+      "tags" : ["TOP STORIES"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

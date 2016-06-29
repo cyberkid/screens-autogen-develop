@@ -1,0 +1,161 @@
+{
+  "displayName":"21st Century Woman",
+  "screen-file-name":"d1352bc3-3c60-4716-8e5a-fedee267eeca.json",
+  "screen-uuid":"af1e1d87-880f-4dd1-9606-fcd5ea2cf7d0",
+  "username":"vishvesh",
+  "screen-config-base":"./config/21century-woman-screen-cfg.json",
+  "tag_order":[
+    "STORIES",
+    "FASHION",
+    "HEALTH"
+  ],
+  "interests":[
+    "women's health",
+    "feminism"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"feminishindia-customfetcher",
+      "fetcher":"feminismindia",
+      "furl_generator":"embedly_rss",
+      "source":"http://feminisminindia.com/site-archives/",
+      "enabled":true,
+      "tags":[
+        "STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"vagabomg-twitterrss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"https://twitrss.me/twitter_user_to_rss/?user=VagaTweets",
+      "enabled":true,
+      "tags":[
+        "STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"shethepeople-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/SheThePeopleTV/videos",
+      "enabled":true,
+      "tags":[
+        "STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"cosmopolitan-beauty",
+      "fetcher":"cosmopolitan",
+      "furl_generator":"embedly_rss",
+      "app":"cosmopolitan",
+      "grouping":"cosmo",
+      "source":"http://www.cosmopolitan.in/beauty/",
+      "enabled":true,
+      "tags":[
+        "FASHION"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"toi-lifestyle-beauty2",
+      "fetcher":"toi",
+      "furl_generator":"embedly_rss",
+      "app":"timesofindia",
+      "grouping":"toi",
+      "source":"http://timesofindia.indiatimes.com/life-style/beauty",
+      "enabled":true,
+      "tags":[
+        "FASHION"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    
+    {
+      "name" : "beautyworldnews-fashion",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/fashion.xml",
+      "enabled" : true,
+      "tags" : ["FASHION"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name":"toi-fashion-trends",
+      "fetcher":"toi",
+      "furl_generator":"embedly_rss",
+      "app":"timesofindia",
+      "grouping":"toi",
+      "source":"http://timesofindia.indiatimes.com/life-style/fashion/trends",
+      "enabled":true,
+      "tags":[
+        "FASHION"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"women-health-fitness",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.womenshealthandfitness.com.au/component/obrss/women-s-health-fitness-combined-feed",
+      "enabled":true,
+      "tags":[
+        "HEALTH"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"womenshealth-fitness",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.womenshealth.gov/news/rss/health-headlines.xml",
+      "enabled":true,
+      "tags":[
+        "HEALTH"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name" : "beautyworldnews-accessories",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/accessories.xml",
+      "enabled" : true,
+      "tags" : ["FASHION"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

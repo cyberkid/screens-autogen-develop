@@ -1,0 +1,55 @@
+{
+  "screenId": "/screen/321fc428-aa38-4187-9c86-6b7aaca73caa",
+  "id": "7c0b3ca2-4d76-42d1-8d35-22d650610d24",
+  "version": 1453363229,
+  "displayName": "India Business & Technology",
+  "displayIcon": "/assets/Asia_Globe.png",
+  "tags": [
+    "Dynamic",
+    "Dynamic India"
+  ],
+  "matchedQueries": [
+    "Automatic"
+  ],
+  "categoryPaths": [
+    "/India/Entertainment"
+  ],
+  "searchBarWidgets": [
+    {
+      "simpleQueryListWidget": {
+        "id": "query_list_01",
+        "queryList": [
+          {
+            "displayName": "Taxi",
+            "query": "Taxi apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/taxi.png"
+          },
+          {
+            "displayName": "Food",
+            "query": "Food apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/restaurant.png"
+          },
+          {
+            "displayName": "Shopping",
+            "query": "Shopping apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/shopping.png"
+          }
+        ]
+      },
+      "id": "wall_searchbar",
+      "config": {
+        "suggest": false,
+        "iconTray": false,
+        "searchParams": {
+          "searchScope": [
+            "app_search"
+          ]
+        },
+        "simpleQueryList": true
+      }
+    }
+  ],
+  "cardListWidgets": [
+
+  ]
+}

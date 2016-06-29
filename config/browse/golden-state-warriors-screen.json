@@ -1,0 +1,154 @@
+{
+  "displayName" : "Golden State Warriors",
+  "screen-uuid" : "6baebf70-70fd-42fc-aa20-f526a3804b64",
+  "username" : "eglover",
+  "partnerid" : "4041472252",
+  "displayIcon":"gsw.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "display-image" : "4041472252/assets/sports_image.jpg",
+  "ad-interests" : ["Sports", "Entertainment"],
+
+  "ranking-function":"interleave",
+  "screen-file-name" : "56ec824f-a716-4dd8-ac56-02d9967c6aa8.json",
+  "screen-config-base" : "./config/golden-state-warriors-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : false,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["News", "Blog", "Social", "Video", "Tickets"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["us"],
+  "interests" : ["golden state warriors"],
+
+  "sources" : [
+    {
+      "name" :"twitter-gsw",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "twitter",
+      "grouping" : "twitter",
+      "source" : "https://twitrss.me/twitter_user_to_rss/?user=warriors",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" :"instagram-gsw",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "instagram",
+      "grouping" : "instagram",
+      "furl" : "func://instagram.com/showUserProfileByUserName?userName=Warriors",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" : "Youtube-gsw",
+      "fetcher" : "youtube",
+      "furl_generator" : "embedly_rss",
+      "app" : "youtube",
+      "grouping" : "youtube",
+      "source" : "https://www.youtube.com/user/GoldenStateWarriors/videos",
+      "enabled" : true,
+      "tags" : ["Video"],
+      "max_items" : 100,
+      "skip" : 0
+    },
+    {
+      "name" : "Facebook-MarchMadness",
+      "fetcher" : "facebook",
+      "furl_generator" : "embedly_rss",
+      "app" : "facebook",
+      "grouping" : "facebook",
+      "source" : "https://graph.facebook.com/v2.2/176134773759/feed?access_token=NNNNNN|XXXXXXXXXXX",
+      "post_url" : "https://www.facebook.com/NovaBasketball/posts/{}",
+      "enabled" : false,
+      "tags" : ["Social"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name": "bleacherrerpot-golden-state-warriors",
+      "fetcher": "bleacherreport",
+      "furl_generator": "embedly_rss",
+      "app": "bleacherreport",
+      "grouping": "bleacherreport",
+      "source": "http://bleacherreport.com/golden-state-warriors",
+      "enabled": true,
+      "tags": ["News"],
+      "max_items": 100,
+      "skip": 1,
+      "filterout" : [
+        {
+        "url" : "twitter.com"
+      }
+      ]
+    },
+    {
+      "name" : "reddit-gsw",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "reddit",
+      "grouping" : "reddit",
+      "source" : "https://www.reddit.com/r/warriors/hot.rss",
+      "enabled" : true,
+      "tags" : ["Blog"],
+      "max_items" : 10,
+      "skip" : 2
+    },
+    {
+      "name" :"seatgeek-gsw",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "seatgeek",
+      "grouping" : "seatgeek",
+      "furl" : "func://seatgeek.com/cloudSearch-showEventDetails?q=golden%20state%20warriors",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Tickets"],
+      "max_items" : 7
+    },
+    {
+      "name" :"tickpick-gsw",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "tickpick",
+      "grouping" : "tickpick",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=https://www.tickpick.com/golden-state-warriors-tickets/",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Tickets"],
+      "max_items" : 7
+    },
+    {
+      "name" :"nba-tickets-gsw",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "nba.com",
+      "grouping" : "nba.com",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.nba.com/warriors/tickets",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Tickets"],
+      "max_items" : 7
+    },
+    {
+      "name" :"vividseats-gsw",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "vividseats",
+      "grouping" : "vividseats",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.vividseats.com/nba-basketball/golden-state-warriors-tickets.html?mv=v4",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Tickets"],
+      "max_items" : 7
+    }
+  ]
+}

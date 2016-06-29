@@ -1,0 +1,107 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "290b4019-611d-49fd-aa81-94a3c001656a.json",
+  "screen-config-base" : "./config/india-local-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : false,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Mumbai","Delhi"],
+  "max_dv_per_tab" : 20,
+
+  "sources" : [
+    {
+      "name":"Yahoo-weather-Mumbai",
+      "fetcher":"single",
+      "app":"weather.yahoo.com",
+      "grouping":"weather",
+      "furl_generator" : "",
+      "furl" : "func://weather.yahoo.com/showWeatherAtCity/mumbai",
+      "url" : "",
+      "enabled" : true,
+      "tags" : ["Mumbai"]
+    },{
+      "name" : "midday-mumbai",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "midday",
+      "grouping" : "midday",
+      "source" : "http://www.mid-day.com/Resources/midday/rss/news-mumbai.xml",
+      "enabled" : true,
+      "tags" : ["Mumbai"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"timesofindia-mumbai",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "timesofindia",
+      "grouping" : "timesofindia",
+      "source" : "http://timesofindia.feedsportal.com/c/33039/f/533975/index.rss",
+      "enabled" : true,
+      "tags" : ["Mumbai"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"indianexpress-mumbai",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "indianexpress",
+      "grouping" : "indianexpress",
+      "source" : "http://indianexpress.com/section/cities/mumbai/feed/",
+      "enabled" : true,
+      "tags" : ["Mumbai"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+        {
+      "name":"Yahoo-weather-Delhi",
+      "fetcher":"single",
+      "app":"weather.yahoo.com",
+      "grouping":"weather",
+      "furl_generator" : "",
+      "furl" : "func://weather.yahoo.com/showWeatherAtCity/delhi",
+      "url" : "",
+      "enabled" : true,
+      "tags" : ["Delhi"]
+    },
+    {
+      "name" : "thehindu-delhi",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "thehindu",
+      "grouping" : "thehindu",
+      "source" : "http://www.thehindu.com/news/cities/Delhi/?service=rss",
+      "enabled" : true,
+      "tags" : ["Delhi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"timesofindia-delhi",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "timesofindia",
+      "grouping" : "timesofindia",
+      "source" : "http://timesofindia.feedsportal.com/c/33039/f/533975/index.rss",
+      "enabled" : true,
+      "tags" : ["Delhi"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"firstpost-delhi",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "firstpost",
+      "grouping" : "firstpost",
+      "source" : "http://www.firstpost.com/category/delhi/feed",
+      "enabled" : true,
+      "tags" : ["Delhi"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

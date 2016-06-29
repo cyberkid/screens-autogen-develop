@@ -1,0 +1,105 @@
+{
+  "displayName":"Young Turks",
+  "screen-file-name":"3b3dba72-4dfb-477b-8620-036f329b27b1.json",
+  "screen-uuid":"5dedf9d0-ddbf-4f1d-946d-2d7cef0e3e0c",
+  "username":"vishvesh",
+  "screen-config-base":"./config/india-young-turks-screen-cfg.json",
+  "tag_order":[
+    "TOP STORIES"
+  ],
+  "interests":[
+    "career advice"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"india-monster-jobs",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://content.monster.com/GetResource?id=US-EN-0&custhandler=monsterblogrss&lcl=content&fileType=rss",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"india-linkedin-blog",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/LinkedInBlog",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"india-fuccha-blog",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.fuccha.in/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"interviewguys-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/The2InterviewGuys/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"india-indeed-blog",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://blog.indeed.com/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"india-ngobox-article",
+      "fetcher":"ngobox",
+      "furl_generator":"embedly_rss",
+      "source":"http://ngobox.org/news_article_blog.php",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    }
+  ]
+}
+
+

@@ -1,0 +1,142 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "f7226ff0-7aeb-4dfc-8bbd-e23d7a9d4424.json",
+  "screen-config-base" : "./config/glamour-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["All", "Top Stories", "Fashion", "Make Up", "Accessories"],
+  "max_dv_per_tab" : 20,
+
+  "sources" : [
+    {
+      "name" : "beautyworldnews-top-stories",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/archives/all.xml",
+      "enabled" : true,
+      "tags" : ["Top Stories"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "beautyworldnews-news",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/archives.xml",
+      "enabled" : true,
+      "tags" : ["Top Stories"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "beautyworldnews-most-popular",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/archives/mostpopular.xml",
+      "enabled" : true,
+      "tags" : ["Top Stories"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+
+
+    {
+      "name" : "beautyworldnews-fashion",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/fashion.xml",
+      "enabled" : true,
+      "tags" : ["Fashion"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+
+
+    {
+      "name" : "beautyworldnews-makeup",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/make-up.xml",
+      "enabled" : true,
+      "tags" : ["Make Up"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "beautyworldnews-skin",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/skin.xml",
+      "enabled" : true,
+      "tags" : ["Make Up"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "beautyworldnews-hair",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/hair.xml",
+      "enabled" : true,
+      "tags" : ["Make Up"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "beautyworldnews-nail",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/nail.xml",
+      "enabled" : true,
+      "tags" : ["Make Up"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+
+
+    {
+      "name" : "beautyworldnews-fragrance",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/fragrance.xml",
+      "enabled" : true,
+      "tags" : ["Accessories"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+
+
+    {
+      "name" : "beautyworldnews-accessories",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "beautyworldnews",
+      "grouping" : "beautyworldnews",
+      "source" : "http://www.beautyworldnews.com/rss/sections/accessories.xml",
+      "enabled" : true,
+      "tags" : ["Accessories"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

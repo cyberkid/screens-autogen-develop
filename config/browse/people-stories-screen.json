@@ -1,0 +1,79 @@
+{
+  "displayName":"People and their stories",
+  "screen-file-name":"57e6e60a-a59e-412b-8003-46d329199b2b.json",
+  "screen-uuid":"17029e69-4a8f-4cae-9205-9c228115f5ab",
+  "username":"vishvesh",
+  "screen-config-base":"./config/people-stories-screen-cfg.json",
+  "tag_order":[
+    "TOP PICKS"
+  ],
+  "interests":[
+    "people's stories"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"People-and-their-stories.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"betterindia-customfetcher",
+      "fetcher":"betterindia",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.thebetterindia.com/?s=my+story",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"humans-of-mumbai-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://humansofmumbai.in/rss",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"immastories-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"https://immstories.wordpress.com/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"logicalindian-customfetcher",
+      "fetcher":"logicalindian",
+      "furl_generator":"embedly_rss",
+      "source":"http://thelogicalindian.com/category/my-story/",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    }
+  ]
+}

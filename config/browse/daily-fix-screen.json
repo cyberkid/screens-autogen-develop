@@ -1,0 +1,115 @@
+{
+  "displayName":"Daily Fix",
+  "screen-file-name":"aa23ca71-a8ae-441b-ac9b-c0b02623ae13.json",
+  "screen-uuid":"4c81ed1d-89fb-43e6-9bd9-fd0baa52f9bf",
+  "username":"vishvesh",
+  "screen-config-base":"./config/daily-fix-screen-cfg.json",
+  "tag_order":[
+    "TOP STORIES"
+  ],
+  "interests":[
+    "news"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":20,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"scoopwoop-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.scoopwhoop.com/tag/Rss/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"thelogicalindian-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/thelogicalindians/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"buzzfeed-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.buzzfeed.com/index.xml",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"betterindia-customfetcher",
+      "fetcher":"betterindia",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.thebetterindia.com/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"frustratedindian-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.thefrustratedindian.com/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"huffingtoppost-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.huffingtonpost.in/feeds/verticals/india/index.xml",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"storypick-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.storypick.com/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    }
+  ]
+}

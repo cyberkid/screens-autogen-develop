@@ -1,0 +1,84 @@
+{
+  "screenId": "/screen/97aa4099-1001-4074-8307-d7c2c8752a79",
+  "id": "11e31b68-dfc5-4283-b115-60a4f7e4a02d",
+  "version": 1453363228,
+  "displayName": "March Madness",
+  "displayIcon": "/assets/MarchMadness.png",
+  "tags": [
+    "Dynamic",
+    "Dynamic US"
+  ],
+  "matchedQueries": [
+    "Automatic"
+  ],
+  "categoryPaths": [
+    "/US/Test"
+  ],
+  "searchBarWidgets": [
+    {
+      "simpleQueryListWidget": {
+        "id": "query_list_01",
+        "queryList": [
+          {
+            "displayName": "Taxi",
+            "query": "Taxi apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/taxi.png"
+          },
+          {
+            "displayName": "Food",
+            "query": "Food apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/restaurant.png"
+          },
+          {
+            "displayName": "Shopping",
+            "query": "Shopping apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/shopping.png"
+          }
+        ]
+      },
+      "id": "wall_searchbar",
+      "config": {
+        "suggest": false,
+        "iconTray": false,
+        "searchParams": {
+          "searchScope": [
+            "app_search"
+          ]
+        },
+        "simpleQueryList": true
+      }
+    }
+  ],
+  "cardListWidgets": [
+    {
+      "id": "dvc_horizontal_list_01",
+      "idLabel": "CAROUSAL",
+      "dataMap": {
+        "label": "CAROUSAL"
+      },
+      "funcUrls": [
+        {
+          "dvUrls": [
+            {
+              "dvUrl": "func://quixey.com/cloudSearch-showWeb?url=http://www.marchmadness2016.org/brackets.html"
+            }
+          ]
+        },
+        {
+          "dvUrls": [
+            {
+              "dvUrl": "func://quixey.com/cloudSearch-showWeb?url=http://www.cbssports.com/collegebasketball/bracketology"
+            }
+          ]
+        },
+        {
+          "dvUrls": [
+            {
+              "dvUrl": "func://quixey.com/cloudSearch-showWeb?url=https://en.wikipedia.org/wiki/2016_NCAA_Men%27s_Division_I_Basketball_Tournament"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

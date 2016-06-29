@@ -1,0 +1,55 @@
+{
+  "screenId": "/screen/64f80471-288f-4c82-b58d-a58e3415eeaa",
+  "id": "6e9af06b-9943-43fe-b78d-f2f6cb5825e9",
+  "version": 1453363228,
+  "displayName": "Entertainment (Indian movies, music and TV)",
+  "displayIcon": "/assets/IndiaScreenIcon.png",
+  "tags": [
+    "Dynamic",
+    "Dynamic India"
+  ],
+  "matchedQueries": [
+    "Automatic"
+  ],
+  "categoryPaths": [
+    "/India/Entertainment"
+  ],
+  "searchBarWidgets": [
+    {
+      "simpleQueryListWidget": {
+        "id": "query_list_01",
+        "queryList": [
+          {
+            "displayName": "Taxi",
+            "query": "Taxi apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/taxi.png"
+          },
+          {
+            "displayName": "Food",
+            "query": "Food apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/restaurant.png"
+          },
+          {
+            "displayName": "Shopping",
+            "query": "Shopping apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/shopping.png"
+          }
+        ]
+      },
+      "id": "wall_searchbar",
+      "config": {
+        "suggest": false,
+        "iconTray": false,
+        "searchParams": {
+          "searchScope": [
+            "app_search"
+          ]
+        },
+        "simpleQueryList": true
+      }
+    }
+  ],
+  "cardListWidgets": [
+
+  ]
+}

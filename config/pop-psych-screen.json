@@ -1,0 +1,91 @@
+{
+  "displayName":"Pop Psych!",
+  "screen-file-name":"e7478c49-0540-4a2d-a717-42d3f32a3674.json",
+  "screen-uuid":"cfcf9ee9-463e-4a7c-aa43-07f48a00aea4",
+  "username":"vishvesh",
+  "screen-config-base":"./config/pop-psych-screen-cfg.json",
+  "tag_order":[
+    "TOP STORIES"
+  ],
+  "interests":[
+    "pop psych"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":20,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+  {
+      "name":"psyblog-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/PsychologyBlog",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"psycentral-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://psychcentral.com/news/feed",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"popscience-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.psychologicalscience.org/index.php/news/were-only-human/feed",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"whatispsycology-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/whatispsychology/wJUi",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"psycology-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/channel/UCYlpMl8sk46MKU9P7XgJpGw/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    }
+  ]
+}

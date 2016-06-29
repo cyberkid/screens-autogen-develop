@@ -1,0 +1,84 @@
+{
+  "screenId": "/screen/c8bdacfa-171a-4ed7-95d3-3d43a434fa48",
+  "id": "4b96bdf8-4f40-4949-ab3a-7b4ecb9d8f63",
+  "version": 1453363228,
+  "displayName": "Villanova Basketball",
+  "displayIcon": "/assets/MarchMadness.png",
+  "tags": [
+    "Dynamic",
+    "Dynamic US"
+  ],
+  "matchedQueries": [
+    "Automatic"
+  ],
+  "categoryPaths": [
+    "/US/Test"
+  ],
+  "searchBarWidgets": [
+    {
+      "simpleQueryListWidget": {
+        "id": "query_list_01",
+        "queryList": [
+          {
+            "displayName": "Taxi",
+            "query": "Taxi apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/taxi.png"
+          },
+          {
+            "displayName": "Food",
+            "query": "Food apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/restaurant.png"
+          },
+          {
+            "displayName": "Shopping",
+            "query": "Shopping apps",
+            "iconUrl": "4041472252/assets/simpleQueryList/shopping.png"
+          }
+        ]
+      },
+      "id": "wall_searchbar",
+      "config": {
+        "suggest": false,
+        "iconTray": false,
+        "searchParams": {
+          "searchScope": [
+            "app_search"
+          ]
+        },
+        "simpleQueryList": true
+      }
+    }
+  ],
+  "cardListWidgets": [
+    {
+      "id": "dvc_horizontal_list_01",
+      "idLabel": "CAROUSAL",
+      "dataMap": {
+        "label": "CAROUSAL"
+      },
+      "funcUrls": [
+        {
+          "dvUrls": [
+            {
+              "dvUrl": "func://quixey.com/cloudSearch-showWeb?url=http://www.villanova.com/sports/m-baskbl/nova-m-baskbl-body.html"
+            }
+          ]
+        },
+        {
+          "dvUrls": [
+            {
+              "dvUrl": "func://quixey.com/cloudSearch-showWeb?url=http://www.villanova.com/sports/m-baskbl/sched/nova-m-baskbl-sched.html"
+            }
+          ]
+        },
+        {
+          "dvUrls": [
+            {
+              "dvUrl": "func://quixey.com/cloudSearch-showWeb?url=http://bleacherreport.com/villanova-basketball"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

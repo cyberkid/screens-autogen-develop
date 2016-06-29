@@ -1,0 +1,75 @@
+Enabled,ScreenId,DisplayName,BrowsePaths,BrowseIcon,OwnerId
+FALSE,421f1826-25c7-4703-90a6-70f349bc8011,News (India),/0/5/8,4041472252/assets/india_news.png,4041472252
+FALSE,321fc428-aa38-4187-9c86-6b7aaca73caa,India Biz-Tech,/0/5/8/13,4041472252/assets/biz_tech.png,4041472252
+FALSE,64f80471-288f-4c82-b58d-a58e3415eeaa,India Movies,/0/14/15,4041472252/assets/india_movies.png,4041472252
+FALSE,3edbb3f8-d28d-4f69-bf75-7f7bf086ab2f,India Sports,,4041472252/assets/india_sports.png,4041472252
+FALSE,0b0c351c-ad6c-4d70-9f1c-4b1bc5653b81,India Cricket,"/0/5/8, /0/1/12",4041472252/assets/india_cricket.png,4041472252
+FALSE,97aa4099-1001-4074-8307-d7c2c8752a79,March Madness,/0/1/2/10,4041472252/assets/march_madness.png,4041472252
+FALSE,c8bdacfa-171a-4ed7-95d3-3d43a434fa48,Villanova Basketball - March Madness,/0/1/2/10,4041472252/assets/villanova_basketball.png,4041472252
+FALSE,87d7ebd1-23ee-422d-98f2-b9fa2becbbb5,Kentucky Basketball - March Madness,/0/1/2/10,4041472252/assets/kentucky_basketball.png,4041472252
+FALSE,6715642a-e10b-4c04-8de9-903626eaf31a,Glamour - India,/0/17/18,4041472252/assets/glamour.png,4041472252
+FALSE,79292a60-c7cf-4901-8053-642c1b58e9a7,Business - India,/0/5/8/13,none,4041472252
+TRUE,aaf6c742-0a58-4a62-88c9-8b40d4e49e04,US News,/0/5/9,4041472252/assets/us_news.png,4041472252
+TRUE,617f0a0c-4fa3-474e-a457-48ba696d1ae1,US Tech,/0/5/9/6,4041472252/assets/us_tech.png,4041472252
+TRUE,6baebf70-70fd-42fc-aa20-f526a3804b64,Golden State Warriors,/0/1/2/3,4041472252/assets/gsw.png,4041472252
+TRUE,75b8fba1-255d-4b0a-84e8-3a1abeed7e03,Geek,/0/5,4041472252/assets/geek.png,4041472252
+TRUE,941aafd3-fa96-474a-8bfd-7ee63e826180,Stanford Events,/0/16/4/11,4041472252/assets/stanford_events.png,4041472252
+TRUE,af1e1d87-880f-4dd1-9606-fcd5ea2cf7d0,21st Century Woman,/0/17/22,4041472252/assets/india_women_lifestyle.png,4041472252
+TRUE,932f4321-8d05-4e1c-b0a5-ac97f06ed992,Art of Manliness,/0/17/22,4041472252/assets/india_manliness.png,4041472252
+TRUE,0372ae24-4af9-46ad-80d0-0a2426240c98,Campus Roll,/0/17/22,4041472252/assets/india_college.png,4041472252
+TRUE,5de004ce-7a84-4052-8cd6-b03eb20d0129,Cook-Off!,/0/17/19,4041472252/assets/india_cooking.png,4041472252
+TRUE,b92db3ea-55aa-42d0-aecb-777d2ad10fee,Cricket,"/0/5/8, /0/1/12",4041472252/assets/india_cricket.png,4041472252
+TRUE,4c81ed1d-89fb-43e6-9bd9-fd0baa52f9bf,Daily Fix,/0/5/8,4041472252/assets/india_news_daily.png,4041472252
+TRUE,1a8f8703-a0f8-4a51-a921-2dbecef92f91,Feast!,/0/17/19,4041472252/assets/india_food.png,4041472252
+TRUE,40662022b-1d77-4df6-bf45-bc774dfd9c9d,Fun This Way,/0/14/15,4041472252/assets/india_entertainment.png,4041472252
+TRUE,edf4d111-7bc7-4fa6-b086-bc1482c3a67f,Geekdom,/0/5/8/13,4041472252/assets/india_tech_news.png,4041472252
+TRUE,135bef3f-87fa-4da0-a56c-592b50ecdb93,Good Times,/0/14/15,4041472252/assets/india_good_times.png,4041472252
+TRUE,b071dbbc-7856-435e-b0be-76c125868a23,Gossip!,"/0/14/29, /0/5/9/30",4041472252/assets/india_gossip.png,4041472252
+TRUE,e0a47414-a404-4040-9b00-63f2626fc2de,Home Decor,/0/17/22,4041472252/assets/india_home_decor.png,4041472252
+TRUE,7eedfa9f-d68d-482e-8181-9fde56f29a89,Level Up!,/0/21/32,4041472252/assets/india_education_level_up.png,4041472252
+TRUE,9714d3ae-aaae-42b0-8a5b-5944bcbb6e32,Modern Dating,/0/17/22,4041472252/assets/india_dating.png,4041472252
+TRUE,0c6f426f-eee3-4b17-8f45-2fc3fbd68b75,Movie Buff,/0/14/15,4041472252/assets/india_movies.png,4041472252
+TRUE,17029e69-4a8f-4cae-9205-9c228115f5ab,People and Their Stories,/0/21/32,4041472252/assets/india_people_stories.png,4041472252
+TRUE,cfcf9ee9-463e-4a7c-aa43-07f48a00aea4,Pop Psych!,/0/17/22,4041472252/assets/india_pop_psych.png,4041472252
+TRUE,ecf1ae5e-7324-445a-9ec3-0a91350a46c5,Pop Science!,/0/21/32,4041472252/assets/india_pop_science.png,4041472252
+TRUE,3001451c-8bb6-4fb7-b459-5380f4b45fa1,Startup News,/0/5/8/13,4041472252/assets/india_startup_news.png,4041472252
+TRUE,40573fd7-71d5-45c0-87af-f26f88d80236,The Great Political Drama,/0/5/8,4041472252/assets/india_political_news.png,4041472252
+TRUE,a16f99b6-25db-4be4-ae4a-8c013cbe3d27,The Know-It-All,/0/5/8,4041472252/assets/india_know_it_all.png,4041472252
+TRUE,421f1826-25c7-4703-90a6-70f349bc8011,Top News,/0/5/8,4041472252/assets/india_top_news.png,4041472252
+TRUE,df5f9e4d-df85-41a0-bda0-cb47b78a84c1,Travel Bug,/0/17/22,4041472252/assets/india_travel.png,4041472252
+TRUE,7b2e7987-d62a-4eed-889d-be83d9e1dbbe,Women's Health,/0/20/31,4041472252/assets/india_womens_health.png,4041472252
+TRUE,5dedf9d0-ddbf-4f1d-946d-2d7cef0e3e0c,Young Turks,/0/21/32,4041472252/assets/india_young_turks.png,4041472252
+TRUE,d0e8efae-b6b5-4a51-a92e-0effa5acf383,Zen Mode,/0/17/22,4041472252/assets/india_zen.png,4041472252
+TRUE,2b5380d9-5f32-42bc-8f70-6751171128ae,Marathi News,/0/5/8,4041472252/assets/india_marathi_news.png,4041472252
+TRUE,6f8d9a96-cefe-4e17-b1e6-f3b93ce51dc1,Hindi News,/0/5/8,4041472252/assets/india_hindi_news.png,4041472252
+TRUE,8ff688ed-7776-4d96-aca7-9e2a23afcee3,Gujarati News,/0/5/8,4041472252/assets/india_gujarati_news.png,4041472252
+TRUE,f203ed35-2c49-4c45-ae82-dc92d2198ce7,Glamour,/0/17/22,4041472252/assets/india_glamour.png,4041472252
+TRUE,cfe1c705-7df4-4242-8f99-283868f4ed59,SO Funky!,/0/17/22,4041472252/assets/india_so_funky.png,3164432937
+TRUE,4d1650ba-6afa-4567-9525-c869f812f249,Fit Fiddle,/0/20/31,4041472252/assets/india_men_fitness.png,3164432937
+TRUE,a85536ce-17d9-43fd-bce1-a5aaace718ea,Conscious Living,/0/20/31,4041472252/assets/india_conscious_living.png,3164432937
+TRUE,24beb90f-2a84-4e48-bbc8-bceab36107b8,High Flyer,/0/17/22,4041472252/assets/india_high_flyer.png,3164432937
+TRUE,d7d86e05-3e5a-4927-a626-510d6715e72b,Comedy Corner,/0/14/35,4041472252/assets/india_comedy.png,3164432937
+TRUE,5fff1a63-a762-4318-b70f-e66e0c736ce7,Budding Entrepreneur,"/0/5/8/13, /0/21",4041472252/assets/india_startup_educational.png,3164432937
+TRUE,21d78f01-7455-42ed-afa0-e65c5a11cd5c,Wedding Season,/0/17/22,4041472252/assets/india_wedding.png,3164432937
+TRUE,65c5ca9e-19b7-4eed-a99a-dbd3fbc31e59,Politics,/0/5/9,4041472252/assets/us_politics.png,4041472252
+TRUE,0f88b38c-4b20-4082-9f4f-99ee64ef6fe1,Sneakers,/0/17/23,4041472252/assets/sneakers.png,4041472252
+TRUE,bd56c6db-6966-40ef-bd93-b5952e67acb4,Tennis,/0/1/27,4041472252/assets/tennis.png,4041472252
+TRUE,e6f3b6d7-0d8b-46aa-9924-f56a102fda13,Football,/0/1/26,4041472252/assets/us_football.png,4041472252
+TRUE,2d581d45-60f8-4a5f-b858-cf6352f8c25f,Hockey,/0/1/28,4041472252/assets/hockey.png,4041472252
+TRUE,7f9b66ca-c165-4437-9080-92f42ad0df54,Fashion,/0/17/23,4041472252/assets/fashion.png,4041472252
+TRUE,f32023b4-6e1d-4e96-98ea-a900287a5f67,Streetwear,/0/17/23,4041472252/assets/streetwear.png,4041472252
+TRUE,1daa21fa-1469-4f39-9b14-2256d423b0ad,Celebrity Gossip,"/0/14/29, /0/5/9/30",4041472252/assets/celebrity_gossip.png,4041472252
+TRUE,7376cac5-6fc8-4906-8337-470eb6f31869,Baseball,/0/1/25,4041472252/assets/baseball.png,4041472252
+TRUE,500663c6-4520-4739-800d-cb369910268e,Soccer,/0/1/24,4041472252/assets/soccer.png,4041472252
+TRUE,84cb4851-7de6-4ab7-9bd0-abf4f360e119,Basketball,/0/1/2,4041472252/assets/basketball.png,4041472252
+TRUE,a362a2bc-cb49-4bf4-9124-46e1fbafb2a2,Travel,/0/17/23,4041472252/assets/travel.png,4041472252
+TRUE,619a6cd5-96e7-4f6c-a617-24dca45f1774,Gear and Gadgets,/0/5/9/6,4041472252/assets/gear_gadgets.png,4041472252
+TRUE,1f4a8b95-5ef5-4289-9602-2d6d80b1e227,Hacker News,/0/5/9/6,4041472252/assets/hacker.png,4041472252
+TRUE,7f4e80e2-4f44-46dd-8d74-6e41876c1567,Wine,/0/17/33,4041472252/assets/wine.png,4041472252
+TRUE,c7d8c89f-1eb6-4e40-bd39-83a151714b7c,Tech News,/0/5/9/6,4041472252/assets/tech_news.png,4041472252
+TRUE,d57f19cc-3f7a-4c28-affd-222936ad7b70,Movie trailers and Reviews,/0/14/34,4041472252/assets/movie_trailers.png,4041472252
+TRUE,fc685ff8-d225-4adb-a123-48f9d5a8aa5e,Magic Mystic,/0/17/22,4041472252/assets/magic_mystic.png,3164432937
+TRUE,b9a0882e-d944-4f24-adec-e96da2084a4b,Study Circle,/0/21/32,4041472252/assets/study_circle.png,3164432937
+TRUE,190f3916-6013-468b-8dce-460fa229cebb,Wolf of Wall Street,/0/21/32,4041472252/assets/wolf_of_wall_street.png,3164432937
+TRUE,ac45dbfb-2953-488c-bcdd-622445411aae,Today Screen,/0/5/9,4041472252/assets/today_screen.png,3163159869
+TRUE,ac6fa7ff-264e-4b17-8bb5-498ee1501b99,IPL Unlimited,/0/1/12,4041472252/assets/sample-test.png,3164432937

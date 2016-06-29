@@ -1,0 +1,121 @@
+{
+  "displayName": "Gossip!",
+  "screen-file-name": "02764ce3-d339-4929-9951-16a23a273327.json",
+  "screen-uuid": "b071dbbc-7856-435e-b0be-76c125868a23",
+  "username": "vishvesh",
+  "screen-config-base": "./config/gossip-screen-cfg.json",
+  "tag_order": [
+    "TOP STORIES",
+    "CELEBRITY"
+  ],
+  "interests": [
+    "celebrity gossip"
+  ],
+  "countries": [
+    "in"
+  ],
+  "partnerid": "4041472252",
+  "auto-gen-tabs": true,
+  "gzip": true,
+  "include_all": true,
+  "dvcs_endpoint": "https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab": 20,
+  "ranking-function": "interleave",
+  "displayIcon": "/assets/sample-test.png",
+  "description": "test-description",
+  "tags": [
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources": [{
+    "name": "spotbyoe-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.spotboye.com/feed/rss",
+    "enabled": true,
+    "tags": [
+      "TOP STORIES"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "indiatoday-eyecatchers-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://indiatoday.feedsportal.com/c/33614/f/589712/index.rss?http://indiatoday.intoday.in/rss/article.jsp?sid=2",
+    "enabled": true,
+    "tags": [
+      "TOP STORIES"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "masala-photos-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.masala.com/photos-feed.xml",
+    "enabled": true,
+    "tags": [
+      "TOP STORIES"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "tmz-youtube",
+    "fetcher": "youtube",
+    "furl_generator": "embedly_rss",
+    "source": "https://www.youtube.com/user/TMZ/videos",
+    "enabled": true,
+    "tags": [
+      "TOP STORIES"
+    ],
+    "max_items": 100,
+    "skip": 0
+  }, {
+    "name": "masala-movies-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.masala.com/movie-feed.xml",
+    "enabled": true,
+    "tags": [
+      "CELEBRITY"
+    ],
+    "max_items": 10,
+    "skip": 0
+  },
+  {
+    "name": "bollywoodlife-youtube",
+    "fetcher": "youtube",
+    "furl_generator": "embedly_rss",
+    "source": "https://www.youtube.com/user/TheBollywoodLife/videos",
+    "enabled": true,
+    "tags": [
+      "CELEBRITY"
+    ],
+    "max_items": 100,
+    "skip": 0
+  }, 
+  {
+    "name": "filimfare-features-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.filmfare.com/feeds/feeds-features.xml",
+    "enabled": true,
+    "tags": [
+      "CELEBRITY"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "masala-celebs-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.masala.com/celeb-feed.xml",
+    "enabled": true,
+    "tags": [
+      "CELEBRITY"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }]
+}

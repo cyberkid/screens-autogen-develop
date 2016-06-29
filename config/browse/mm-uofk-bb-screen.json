@@ -1,0 +1,158 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "8f1dade9-f4d3-49ca-b06d-b3f1d17ae973.json",
+  "screen-config-base" : "./config/mm-uofk-bb-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Video", "News", "Social", "Team"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["us"],
+  "interests" : [],
+
+  "sources" : [
+    {
+      "name" :"twitter-kentucky-marchmadness",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "twitter",
+      "grouping" : "twitter",
+      "source" : "https://twitrss.me/twitter_user_to_rss/?user=KentuckyMBB",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" :"instagram-kentucky-marchmadness1",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "instagram",
+      "grouping" : "instagram",
+      "furl" : "func://instagram.com/showPhotosByTagName/kentuckymbb",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" :"instagram-kentucky-marchmadness2",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "instagram",
+      "grouping" : "instagram",
+      "furl" : "func://instagram.com/showPhotosByTagName/kentuckybasketball",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" : "Youtube-Kentucky-basketball",
+      "fetcher" : "youtube",
+      "furl_generator" : "embedly_rss",
+      "app" : "youtube",
+      "grouping" : "youtube",
+      "source" : "https://www.youtube.com/channel/UC7EY-H9hmOcrckQ1X-I6SpA/videos",
+      "enabled" : true,
+      "tags" : ["Video"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name" : "Facebook-KentuckyBB",
+      "fetcher" : "facebook",
+      "furl_generator" : "embedly_rss",
+      "app" : "facebook",
+      "grouping" : "facebook",
+      "source" : "https://graph.facebook.com/v2.2/176134773759/feed?access_token=1021790844549388|iK2pnIeExkb_XiUVsNpJxaMj0cs",
+      "post_url" : "https://www.facebook.com/KentuckyMBB/posts/{}",
+      "enabled" : false,
+      "tags" : ["Social"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name": "bleacherrerpot-kentucky-basketball",
+      "fetcher": "bleacherreport",
+      "furl_generator": "embedly_rss",
+      "app": "bleacherreport",
+      "grouping": "bleacherreport",
+      "source": "http://bleacherreport.com/kentucky-wildcats-basketball",
+      "enabled": true,
+      "tags": ["News"],
+      "max_items": 100,
+      "skip": 1,
+      "filterout" : [
+        {
+        "url" : "twitter.com"
+      }
+      ]
+    },
+    {
+      "name" : "kentucky-official",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "ukathletics.com",
+      "grouping" : "uka",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.ukathletics.com/sport/m-baskbl",
+      "url" : "http://www.ukathletics.com/sport/m-baskbl",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    },
+    {
+      "name" : "kentucky-schedule",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "ukathletics.com",
+      "grouping" : "uka",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.ukathletics.com/schedule-list#/all/2016-02-23",
+      "url" : "http://www.ukathletics.com/schedule-list#/all/2016-02-23",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    },
+    {
+      "name" : "kentucky-roster",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "ukathletics.com",
+      "grouping" : "uka",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.ukathletics.com/sport/m-baskbl/roster/#/",
+      "url" : "http://www.ukathletics.com/sport/m-baskbl/roster/#/",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    },
+    {
+      "name" : "villanova-statistics",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "espn.com",
+      "grouping" : "espn",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://espn.go.com/mens-college-basketball/team/stats/_/id/96/kentucky-wildcats",
+      "url" : "http://espn.go.com/mens-college-basketball/team/stats/_/id/96/kentucky-wildcats",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    },
+    {
+      "name" : "kentucky-athletics",
+      "fetcher" : "single",
+      "furl_generator" : "",
+      "app" : "ukathletics.com",
+      "grouping" : "uka",
+      "furl" : "func://quixey.com/cloudSearch-showWeb?url=http://www.ukathletics.com/",
+      "url" : "http://www.ukathletics.com/",
+      "enabled" : true,
+      "tags" : ["Team"],
+      "max_items" : 1,
+      "skip" : 0
+    }
+  ]
+}

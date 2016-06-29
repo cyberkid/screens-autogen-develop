@@ -1,0 +1,86 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "5159820b-b228-4189-b24f-b5b27fe538f8.json",
+  "screen-config-base" : "./config/india-sports-cricket-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : false,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Cricket", "Sports"],
+  "max_dv_per_tab" : 20,
+
+  "sources" : [
+    {
+      "name" : "cricinfo-6",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "cricinfo",
+      "grouping" : "cricinfo",
+      "source" : "http://www.espncricinfo.com/rss/content/story/feeds/6.xml",
+      "enabled" : true,
+      "tags" : ["Cricket"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "ibnlive-sports",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "ibnlive",
+      "grouping" : "ibnlive",
+      "source" : "http://www.ibnlive.com/rss/sports.xml",
+      "enabled" : true,
+      "tags" : ["Sports"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"thehindu-cricket",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "thehindu",
+      "grouping" : "thehindu",
+      "source" : "http://www.thehindu.com/sport/cricket/?service=rss",
+      "enabled" : true,
+      "tags" : ["Cricket"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"indianexpress-sports",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "indianexpress",
+      "grouping" : "indianexpress",
+      "source" : "http://indianexpress.com/section/sports/feed/",
+      "enabled" : true,
+      "tags" : ["Sports"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "cricinfo-0",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "cricinfo",
+      "grouping" : "cricinfo",
+      "source" : "http://www.espncricinfo.com/rss/content/story/feeds/0.xml",
+      "enabled" : true,
+      "tags" : ["Cricket"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"ndtv-sports",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "ndtv",
+      "grouping" : "ndtv",
+      "source" : "http://feeds.feedburner.com/NDTV-Sports",
+      "enabled" : true,
+      "tags" : ["Sports"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

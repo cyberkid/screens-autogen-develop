@@ -1,0 +1,114 @@
+{
+  "displayName":"Cricket",
+  "screen-file-name":"f8294e02-c6c3-4e16-902f-e5888591f796.json",
+  "screen-uuid":"b92db3ea-55aa-42d0-aecb-777d2ad10fee",
+  "username":"vishvesh",
+  "screen-config-base":"./config/india-cricket-screen-cfg.json",
+  "tag_order":[
+    "NEWS",
+    "STORIES"
+  ],
+  "interests":[
+    "cricket"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":25,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources" : [
+  {
+      "name" : "cricbuzz-6",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "cricinfo",
+      "grouping" : "cricinfo",
+      "source" : "http://live-feeds.cricbuzz.com/CricbuzzFeed",
+      "enabled" : true,
+      "tags" : ["NEWS"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "cricinfo-6",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "cricinfo",
+      "grouping" : "cricinfo",
+      "source" : "http://www.espncricinfo.com/rss/content/story/feeds/6.xml",
+      "enabled" : true,
+      "tags" : ["STORIES"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"thehindu-cricket",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "thehindu",
+      "grouping" : "thehindu",
+      "source" : "http://www.thehindu.com/sport/cricket/?service=rss",
+      "enabled" : true,
+      "tags" : ["NEWS"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "cricinfo-0",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "cricinfo",
+      "grouping" : "cricinfo",
+      "source" : "http://www.espncricinfo.com/rss/content/story/feeds/0.xml",
+      "enabled" : true,
+      "tags" : ["NEWS"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "ndtv-cricket-rss",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "source" : "http://feeds.feedburner.com/ndtv/qJNd",
+      "enabled" : true,
+      "tags" : ["NEWS"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "sportskeeda-cricket",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "cricinfo",
+      "grouping" : "cricinfo",
+      "source" : "http://api.sportskeeda.com/v1/feed/sport/cricket",
+      "enabled" : true,
+      "tags" : ["STORIES"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "india-reddit-cricket",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "cricinfo",
+      "grouping" : "cricinfo",
+      "source" : "http://www.rediff.com/rss/cricket.xml",
+      "enabled" : true,
+      "tags" : ["STORIES"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

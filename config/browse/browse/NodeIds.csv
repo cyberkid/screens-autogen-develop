@@ -1,0 +1,37 @@
+NodeId,DisplayName,Icon,NOTE
+0,TOP,/assets/Quixey.png,
+1,Sports,Sports.png,
+2,Basketball,BBall1.png,
+3,NBA,NBA.png,
+4,US-Local,USA.png,
+5,News,N1,
+6,Tech News,,"US Tech News, specific node to go after ""US News"""
+7,China News,C1,
+8,India News,I1,
+9,US News,USA.png,
+10,NCAA,N2,Basketball
+11,Events,,
+12,India Sports,,
+13,Tech News,,Specific node to go after India News
+14,Entertainment,,
+15,India Movies,,
+16,Local,,
+17,Lifestyle,shoes.png,
+18,Fashion,shoes.png,
+19,Food,,
+20,Health,,
+21,Education,,
+22,India Lifestyle,,Specific node to go after Lifestyle
+23,US Lifestyle,,
+24,Soccer,,
+25,Baseball,,
+26,Football,,
+27,Tennis,,
+28,Hockey,,
+29,Celebrity Gossip,,Specific node to go after Entertainment
+30,Celebrity Gossip,,Specific node to go after US News
+31,Health,,
+32,Education,,
+33,Wine,,
+34,Movies,,
+35,Comedy,,

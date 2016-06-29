@@ -1,0 +1,60 @@
+{
+  "displayName": "Goodreads - test",
+  "screen-file-name" : "3fac9641-3f08-427c-92e0-2e3d1b52d250.json",
+  "screen-uuid" : "9a016572-f13f-4186-bc35-bb7e0856fe34",
+  "username" : "eglover",
+  "screen-config-base" : "./config/goodreads_test-screen-cfg.json",
+  "tag_order" : ["All","NBA-Features", "NBA-Latest"],
+  "interests" : ["interest1", "interest2"],
+  "countries" : ["us", "in"],
+
+  "partnerid" : "4041472252",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab" : 30,
+  "ranking-function":"interleave",
+  "displayIcon": "/assets/sample-test.png",
+  "description": "test-description",
+  "tags": [
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+
+  "sources" : [
+    {
+      "name" : "Good reads art",
+      "selector" : ".coverWrapper a",
+      "fetcher" : "css_selector",
+      "furl_generator" : "embedly_rss",
+      "source" : "http://www.goodreads.com/genres/art",
+      "enabled" : true,
+      "tags" : ["Books"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name" : "NBA Features",
+      "selector" : ".nbaFeatures h3 a",
+      "fetcher" : "css_selector",
+      "furl_generator" : "embedly_rss",
+      "source" : "http://www.nba.com/news/",
+      "enabled" : true,
+      "tags" : ["NBA-Features"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name" : "NBA Latest",
+      "selector" : ".nbaLatestNews a",
+      "fetcher" : "css_selector",
+      "furl_generator" : "embedly_rss",
+      "source" : "http://www.nba.com/news/",
+      "enabled" : true,
+      "tags" : ["NBA-Latest"],
+      "max_items" : 20,
+      "skip" : 0
+    }
+  ]
+}

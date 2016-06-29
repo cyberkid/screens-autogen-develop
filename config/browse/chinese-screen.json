@@ -1,0 +1,86 @@
+{
+  "displayName" : "华语新闻",
+  "screen-uuid" : "815d3a25-b039-4d16-a922-bc6b154b6dd4",
+  "username" : "eglover",
+  "partnerid" : "4041472252",
+  "displayIcon":"mandarin.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+
+  "ranking-function":"interleave",
+  "screen-file-name" : "857b89cb-f255-4a20-a09f-f249646e3729.json",
+  "screen-config-base" : "./config/chinese-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : false,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["新闻"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["cn"],
+  "interests" : ["华语新闻"],
+
+  "sources" : [
+    {
+      "name" :"qq-news",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "qq",
+      "grouping" : "qq",
+      "source" : "http://news.qq.com/newsgn/rss_newsgn.xml",
+      "enabled" : true,
+      "tags" : ["新闻"],
+      "max_items" : 10
+    },
+    {
+      "name" :"ifeng-news",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "ifeng",
+      "grouping" : "ifeng",
+      "source" : "http://news.ifeng.com/rss/index.xml",
+      "enabled" : true,
+      "tags" : ["新闻"],
+      "max_items" : 10,
+      "skip" : 1
+    },
+    {
+      "name" :"sina-top",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "sina",
+      "grouping" : "sina",
+      "source" : "http://rss.sina.com.cn/news/china/focus15.xml",
+      "enabled" : true,
+      "tags" : ["新闻"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"sohu",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "sohu",
+      "grouping" : "sohu",
+      "source" : "http://rss.news.sohu.com/rss/focus.xml",
+      "enabled" : true,
+      "tags" : ["新闻"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"http://www.huxiu.com/rss/0.xml",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "huxiu",
+      "grouping" : "huxiu",
+      "source" : "http://www.huxiu.com/rss/0.xml",
+      "enabled" : true,
+      "tags" : ["新闻"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

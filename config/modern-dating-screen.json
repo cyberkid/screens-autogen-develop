@@ -1,0 +1,69 @@
+{
+  "displayName":"Modern Dating",
+  "screen-file-name":"502cb629-569d-4825-a1c6-86a7e200bd36.json",
+  "screen-uuid":"9714d3ae-aaae-42b0-8a5b-5944bcbb6e32",
+  "username":"vishvesh",
+  "screen-config-base":"./config/modern-dating-screen-cfg.json",
+  "tag_order":[
+    "TOP PICKS"
+  ],
+  "interests":[
+    "dating"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"trulymadly-customfetcher",
+      "fetcher":"trulymadly",
+      "furl_generator":"embedly_rss",
+      "source":"http://blog.trulymadly.com/category/dating-2/",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"huffington-dating-customfetcher",
+      "fetcher":"huffington",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.huffingtonpost.com/news/modern-dating/",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"yourtango-customfetcher",
+      "fetcher":"yourtango",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.yourtango.com/experts",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":10,
+      "skip":0
+    }
+    
+    
+  ]
+}

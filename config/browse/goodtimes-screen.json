@@ -1,0 +1,115 @@
+{
+  "displayName":"Good Times",
+  "screen-file-name":"1716de71-ad87-4d89-baa6-85db5f6ce3e7.json",
+  "screen-uuid":"135bef3f-87fa-4da0-a56c-592b50ecdb93",
+  "username":"vishvesh",
+  "screen-config-base":"./config/goodtimes-screen-cfg.json",
+  "tag_order":[
+    "TOP PICKS"
+  ],
+  "interests":[
+    "fun"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":20,
+  "ranking-function":"interleave",
+  "displayIcon":"india_good_times.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"missmalini-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.missmalini.com/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"indiatoday-leisure-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://indiatoday.feedsportal.com/c/33614/f/647963/index.rss?http://indiatoday.intoday.in/rss/article.jsp?sid=85",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"spotbyoe-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.spotboye.com/feed/rss",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"thrillophillia-travel",
+      "fetcher":"thrillophillia",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.thrillophilia.com/blog/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"expoza-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/ExpozaTravel/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"filmfare-all-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.filmfare.com/feeds/feeds.xml",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"zoomdeko-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/ZoomDekho/videos",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":100,
+      "skip":0
+    }
+  ]
+}

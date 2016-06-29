@@ -1,0 +1,87 @@
+{
+  "displayName" : "Stanford Events",
+  "screen-uuid" : "941aafd3-fa96-474a-8bfd-7ee63e826180",
+  "username" : "eglover",
+  "partnerid" : "4041472252",
+  "displayIcon":"stanford_events.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+
+  "ranking-function":"interleave",
+  "screen-file-name" : "995b53fa-6dff-4c6b-9eba-8ca009a3dc45.json",
+  "screen-config-base" : "./config/local-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Stanford"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["us"],
+  "interests" : [],
+
+  "sources" : [
+    {
+      "name" :"stanford-featured-events",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "stanford",
+      "grouping" : "stanford",
+      "source" : "http://events.stanford.edu/xml/rss.xml",
+      "enabled" : true,
+      "tags" : ["Stanford"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"mercurynews-valley",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "mercurynews",
+      "grouping" : "mercurynews",
+      "source" : "http://feeds.mercurynews.com/mngi/rss/CustomRssServlet/568/200749.xml",
+      "enabled" : true,
+      "tags" : ["Valley"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"mercurynews-personal-tech",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "mercurynews",
+      "grouping" : "mercurynews",
+      "source" : "http://feeds.mercurynews.com/mngi/rss/CustomRssServlet/568/250116.xml",
+      "enabled" : true,
+      "tags" : ["Valley"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"mercurynews-biz-break",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "mercurynews",
+      "grouping" : "mercurynews",
+      "source" : "http://feeds.mercurynews.com/mngi/rss/CustomRssServlet/568/200792.xml",
+      "enabled" : true,
+      "tags" : ["Valley"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"mnginteractive-most-viewed",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "mnginteractive",
+      "grouping" : "mnginteractive",
+      "source" : "http://extras.mnginteractive.com/live/xsl/memv/xml/573_most_viewed_rss.xml",
+      "enabled" : true,
+      "tags" : ["Valley"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

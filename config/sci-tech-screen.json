@@ -1,0 +1,75 @@
+{
+  "displayName" : "US Tech",
+  "screen-uuid" : "617f0a0c-4fa3-474e-a457-48ba696d1ae1",
+  "username" : "eglover",
+  "partnerid" : "4041472252",
+  "displayIcon":"us_tech.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+
+  "ranking-function":"interleave",
+  "screen-file-name" : "371c3713-2581-4aea-97df-f382461132cb.json",
+  "screen-config-base" : "./config/sci-tech-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Sci-Tech"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["us"],
+  "interests" : ["tech news"],
+
+  "sources" : [
+     {
+      "name" :"ABCNews-Tech",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "abcnews",
+      "grouping" : "abcnews",
+      "source" : "http://feeds.abcnews.com/abcnews/technologyheadlines",
+      "enabled" : true,
+      "tags" : ["Sci-Tech"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"Techcrunch-Tech",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "techcrunch",
+      "grouping" : "techcrunch",
+      "source" : "http://feeds.feedburner.com/TechCrunch/",
+      "enabled" : true,
+      "tags" : ["Sci-Tech"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"recode",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "recode",
+      "grouping" : "recode",
+      "source" : "http://recode.net/feed/",
+      "enabled" : true,
+      "tags" : ["Sci-Tech"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"wired",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "wired",
+      "grouping" : "wired",
+      "source" : "http://feeds.wired.com/wired/index",
+      "enabled" : true,
+      "tags" : ["Sci-Tech"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

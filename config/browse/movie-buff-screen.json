@@ -1,0 +1,145 @@
+{
+  "displayName": "Movie Buff",
+  "screen-file-name": "0a8850bf-e63a-411a-85b4-168d75a74995.json",
+  "screen-uuid": "0c6f426f-eee3-4b17-8f45-2fc3fbd68b75",
+  "username": "vishvesh",
+  "screen-config-base": "./config/movie-buff-screen-cfg.json",
+  "tag_order": [
+    "TOP STORIES",
+    "BOLLYWOOD",
+    "CELEBRITY"
+  ],
+  "interests": [
+    "movies",
+    "bollywood"
+  ],
+  "countries": [
+    "in"
+  ],
+  "partnerid": "4041472252",
+  "auto-gen-tabs": true,
+  "gzip": true,
+  "include_all": true,
+  "dvcs_endpoint": "https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab": 30,
+  "ranking-function": "interleave",
+  "displayIcon": "Movie-Buff2.png",
+  "description": "test-description",
+  "tags": [
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources": [{
+    "name": "golmolnews-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://feeds.feedburner.com/GomoloNews",
+    "enabled": true,
+    "tags": [
+      "TOP STORIES"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "ndtvbollywood-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://feeds.feedburner.com/ndtvmovies-bollywood",
+    "enabled": true,
+    "tags": [
+      "BOLLYWOOD"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "golmolomovie-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://feeds.feedburner.com/GomoloMovieReviews",
+    "enabled": true,
+    "tags": [
+      "BOLLYWOOD"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "wogmaall-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://feeds.feedburner.com/WogmaAll",
+    "enabled": true,
+    "tags": [
+      "BOLLYWOOD"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "masala-photos-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.masala.com/photos-feed.xml",
+    "enabled": true,
+    "tags": [
+      "TOP STORIES"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "desimartini-youtube",
+    "fetcher": "youtube",
+    "furl_generator": "embedly_rss",
+    "source": "https://www.youtube.com/user/DesiMartiniMovies/videos",
+    "enabled": true,
+    "tags": [
+      "TOP STORIES"
+    ],
+    "max_items": 100,
+    "skip": 0
+  }, {
+    "name": "masala-movies-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.masala.com/movie-feed.xml",
+    "enabled": true,
+    "tags": [
+      "CELEBRITY"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }, {
+    "name": "filimfare-features-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.filmfare.com/feeds/feeds-features.xml",
+    "enabled": true,
+    "tags": [
+      "CELEBRITY"
+    ],
+    "max_items": 10,
+    "skip": 0
+  },
+  {
+    "name": "bollywoodlife-youtube",
+    "fetcher": "youtube",
+    "furl_generator": "embedly_rss",
+    "source": "https://www.youtube.com/user/TheBollywoodLife/videos",
+    "enabled": true,
+    "tags": [
+      "CELEBRITY"
+    ],
+    "max_items": 100,
+    "skip": 0
+  },  
+  {
+    "name": "masala-celebs-rss",
+    "fetcher": "RSS",
+    "furl_generator": "embedly_rss",
+    "source": "http://www.masala.com/celeb-feed.xml",
+    "enabled": true,
+    "tags": [
+      "CELEBRITY"
+    ],
+    "max_items": 10,
+    "skip": 0
+  }]
+}

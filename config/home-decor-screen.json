@@ -1,0 +1,79 @@
+{
+  "displayName":"Home Decor",
+  "screen-file-name":"59b7b907-5f14-4871-9888-b40422681e0c.json",
+  "screen-uuid":"e0a47414-a404-4040-9b00-63f2626fc2de",
+  "username":"vishvesh",
+  "screen-config-base":"./config/home-decor-screen-cfg.json",
+  "tag_order":[
+    "WHAT'S HOT"
+  ],
+  "interests":[
+    "home decor"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":20,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"houzz-homedecor",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.houzz.com/getGalleries/featured/out-rss",
+      "enabled":true,
+      "tags":[
+        "WHAT'S HOT"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"simple-home-art-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/channel/UC2GoszO2fCE6_9W1EYi2Dfg/videos",
+      "enabled":true,
+      "tags":[
+        "WHAT'S HOT"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"rangdecor-homedecor",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/Rang-Decor/feed",
+      "enabled":true,
+      "tags":[
+        "WHAT'S HOT"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"dressyourhome-homedecor",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/dressyourhome",
+      "enabled":true,
+      "tags":[
+        "WHAT'S HOT"
+      ],
+      "max_items":20,
+      "skip":0
+    }
+  ]
+}

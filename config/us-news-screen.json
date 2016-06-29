@@ -1,0 +1,134 @@
+{
+  "displayName" : "US News",
+  "screen-uuid" : "aaf6c742-0a58-4a62-88c9-8b40d4e49e04",
+  "username" : "eglover",
+  "partnerid" : "4041472252",
+  "displayIcon":"us_news.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+
+  "ranking-function":"interleave",
+  "screen-file-name" : "f39d1a52-5da1-4c73-bfe1-b73a2a8b0fd5.json",
+  "screen-config-base" : "./config/us-news-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["US", "Bay Area", "All"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["us"],
+  "interests" : ["news", "us news"],
+  "sources" : [
+    {
+      "name" : "NYTIMES-top-stories",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nytimes",
+      "grouping" : "nytimes",
+      "source" : "http://rss.nytimes.com/services/xml/rss/nyt/US.xml",
+      "enabled" : true,
+      "tags" : ["US"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "USATODAY-top-stories",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "usatoday",
+      "grouping" : "usatoday",
+      "source" : "http://rssfeeds.usatoday.com/usatoday-NewsTopStories",
+      "enabled" : true,
+      "tags" : ["US"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"ABCNews-top-stories",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "abcnews",
+      "grouping" : "abcnews",
+      "source" : "http://feeds.abcnews.com/abcnews/topstories",
+      "enabled" : true,
+      "tags" : ["US"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"NBCNews-top-stories",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nbcnews",
+      "grouping" : "nbcnews",
+      "source" : "http://feeds.nbcnews.com/feeds/topstories",
+      "enabled" : true,
+      "tags" : ["US"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"NBC Bay Area-local",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "nbcbayarea",
+      "grouping" : "nbcbayarea",
+      "source" : "http://www.nbcbayarea.com/news/local/?rss=y&embedThumb=y&summary=y",
+      "enabled" : true,
+      "tags" : ["Bay Area"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "KRON4-local",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "kron4",
+      "grouping" : "kron4",
+      "source" : "http://kron4.com/feed/",
+      "enabled" : false,
+      "tags" : ["Bay Area"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "ABC7-local",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "abc7",
+      "grouping" : "abc7",
+      "source" : "http://abc7news.com/feed/",
+      "enabled" : true,
+      "tags" : ["Bay Area"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "mercurynews",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "mercurynews",
+      "grouping" : "mercurynews",
+      "source" : "http://feeds.mercurynews.com/mngi/rss/CustomRssServlet/568/200748.xml",
+      "enabled" : true,
+      "tags" : ["Bay Area"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "sfgate",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "sfgate",
+      "grouping" : "sfgate",
+      "source" : "http://www.sfgate.com/bayarea/feed/Bay-Area-News-429.php",
+      "enabled" : true,
+      "tags" : ["Bay Area"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

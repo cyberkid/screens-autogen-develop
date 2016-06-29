@@ -1,0 +1,31 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "br.json",
+  "screen-config-base" : "./config/us-news-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Basketball"],
+  "max_dv_per_tab" : 20,
+
+  "sources" : [
+    {
+      "name": "bleacherrerpot-kentucky-mbb",
+      "fetcher": "bleacherreport",
+      "furl_generator": "embedly_rss",
+      "app": "youtube",
+      "grouping": "youtube",
+      "source": "http://bleacherreport.com/kentucky-wildcats-basketball",
+      "enabled": true,
+      "tags": ["Basketball"],
+      "max_items": 100,
+      "skip": 1,
+      "filterout" : [
+        {
+        "url" : "twitter.com"
+      }
+      ]
+    }
+  ]
+}

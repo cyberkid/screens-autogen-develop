@@ -1,0 +1,115 @@
+{
+  "displayName":"Travel Bug",
+  "screen-file-name":"dbb10ce9-24c2-45f0-9fb4-4357535f4681.json",
+  "screen-uuid":"df5f9e4d-df85-41a0-bda0-cb47b78a84c1",
+  "username":"vishvesh",
+  "screen-config-base":"./config/travelbug-screen-cfg.json",
+  "tag_order":[
+    "TOP STORIES"
+  ],
+  "interests":[
+    "travel"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+   {
+      "name":"makemytrip-travel",
+      "fetcher":"makemytrip",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.makemytrip.com/blog/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"expoza-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/ExpozaTravel/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"wanderlink-travel",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/Wanderink",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"thrillophillia-travel",
+      "fetcher":"thrillophillia",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.thrillophilia.com/blog/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"indiatales-travel",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.inditales.com/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"highon-life-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/sundayfundayz/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"ticketgoose-travel",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://blog.ticketgoose.com/feed/",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    }
+  ]
+}

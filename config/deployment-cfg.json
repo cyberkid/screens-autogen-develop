@@ -1,0 +1,141 @@
+{
+  "groups": {
+    "1": {
+      "screens": [
+        "mm-screen.json",
+        "geek-screen.json",
+        "us-news-screen.json",
+        "sci-tech-screen.json",
+        "india-news-screen.json",
+        "india-entertainment.json",
+        "india-sports-screen.json",
+        "india-cricket-screen.json",
+        "india-biz-tech-screen.json",
+        "glamour-screen.json",
+        "local-screen.json",
+        "chinese-screen.json",
+        "mm-uofk-bb-screen.json",
+        "mm-villanova-screen.json",
+        "golden-state-warriors-screen.json",
+        "india-top-news-screen.json"
+      ],
+      "envs": [
+        "stage",
+        "prod"
+      ]
+    },
+    "2": {
+      "screens": [
+        "21century-woman-screen.json",
+        "campus-roll-screen.json",
+        "cook-off-screen.json",
+        "daily-fix-screen.json",
+        "feast-screen.json",
+        "fun-this-way-screen.json",
+        "geekdom-screen.json",
+        "goodtimes-screen.json",
+        "gossip-screen.json",
+        "gujarati-news-screen.json",
+        "home-decor-screen.json",
+        "india-cricket-screen.json",
+        "india-glamour-screen.json",
+        "india-hindi-news-screen.json",
+        "india-startup-news-screen.json",
+        "wine-screen.json",
+        "technews-screen.json",
+        "movietrailersandreviews-screen.json"
+      ],
+      "envs": [
+        "canary",
+        "prod"
+      ]
+    },
+    "3": {
+      "screens": [
+	"glamour2-screen.json"
+      ],
+      "envs": [
+        "canary",
+	"stage"
+      ]
+    },
+    "4": {
+      "screens": [
+	"glamour2-screen.json"
+      ],
+      "envs": [
+        "prod"
+      ]
+    },
+    "5": {
+      "screens": [
+	"us-news-screen.json",
+    "geek-screen.json"
+      ],
+      "envs": [
+        "canary"
+      ]
+    },
+    "6": {
+      "screens": [
+	"us-news-screen.json",
+    "goodreads_test-screen.json"
+      ],
+      "envs": [
+        "canary"
+      ]
+    },
+    "7": {
+      "screens": [
+        "india-top-news-screen.json",
+        "india-young-turks-screen.json",
+        "know-it-all-screen.json",
+        "level-up-screen.json",
+        "man-screen.json",
+        "marathi-news-screen.json",
+        "modern-dating-screen.json",
+        "movie-buff-screen.json",
+        "people-stories-screen.json",
+        "political-drama-screen.json",
+        "pop-psych-screen.json",
+        "pop-science-screen.json",
+        "travelbug-screen.json",
+        "womens-health-screen.json",
+        "zen-mode-screen.json",
+        "travel-screen.json",
+        "gearandgadgets-screen.json",
+        "hackernews-screen.json"
+      ],
+      "envs": [
+        "canary",
+        "prod"
+      ]
+    },
+    "8": {
+      "screens": [
+        "geek-screen.json",
+        "us-news-screen.json",
+        "sci-tech-screen.json",
+        "chinese-screen.json",
+        "local-screen.json",
+        "golden-state-warriors-screen.json",
+        "india-sports-screen.json",
+        "basketball-screen.json",
+        "politics-screen.json",
+        "sneakers-screen.json",
+        "tennis-screen.json",
+        "football-screen.json",
+        "hockey-screen.json",
+        "fashion-screen.json",
+        "streetwear-screen.json",
+        "celebritygossip-screen.json",
+        "baseball-screen.json",
+        "soccer-screen.json"
+      ],
+      "envs": [
+        "canary",
+        "prod"
+      ]
+    }
+  }
+}

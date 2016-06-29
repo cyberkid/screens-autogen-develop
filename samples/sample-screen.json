@@ -1,0 +1,39 @@
+{
+  "displayName": "SCREEN NAME",
+  "screen-file-name" : "XXXXX-UUID1-XXXXXXX.json",
+  "screen-uuid" : "XXXXXX-UUID2-XXXXXXXX",
+  "username" : "XXXXXXX",
+  "screen-config-base" : "./config/FILE_NAME-screen-cfg.json",
+  "tag_order" : ["All", "MyTab"],
+  "interests" : ["interest1", "interest2"],
+  "countries" : ["us", "in"],
+
+  "partnerid" : "4041472252",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab" : 30,
+  "ranking-function":"interleave",
+  "displayIcon": "/assets/sample-test.png",
+  "description": "test-description",
+  "tags": [
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+
+  "sources" : [
+    {
+      "name": "EXAMPLE-RSS",
+      "fetcher": "RSS",
+      "furl_generator": "embedly_rss",
+      "source": "http://rss.cnn.com/rss/cnn_topstories.rss",
+      "enabled": true,
+      "tags": [
+        "MyTab"
+      ],
+      "max_items": 20,
+      "skip": 0
+    }
+  ]
+}

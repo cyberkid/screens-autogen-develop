@@ -1,0 +1,118 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "7c0b3ca2-4d76-42d1-8d35-22d650610d24.json",
+  "screen-config-base" : "./config/india-biz-tech-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : false,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["All", "Business", "Tech"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["in"],
+  "interests" : ["tech news"],
+
+  "sources" : [
+    {
+      "name" : "moneycontrol-top",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "moneycontrol",
+      "grouping" : "moneycontrol",
+      "source" : "http://www.moneycontrol.com/rss/MCtopnews.xml",
+      "enabled" : true,
+      "tags" : ["Business"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "business-standard-india",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "business-standard",
+      "grouping" : "business-standard",
+      "source" : "http://www.business-standard.com/rss/technology-108.rss",
+      "enabled" : true,
+      "tags" : ["Tech"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"economictimes-india-top",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "economictimes",
+      "grouping" : "economictimes",
+      "source" : "http://economictimes.indiatimes.com/rssfeedstopstories.cms",
+      "enabled" : true,
+      "tags" : ["Business"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"timesofindia-india",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "timesofindia",
+      "grouping" : "timesofindia",
+      "source" : "http://timesofindia.feedsportal.com/c/33039/f/533923/index.rss",
+      "enabled" : true,
+      "tags" : ["Tech"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"NDTV-Business",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "feedburner",
+      "grouping" : "feedburner",
+      "source" : "http://feeds.feedburner.com/NDTV-Business",
+      "enabled" : true,
+      "tags" : ["Business"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name": "NDTV-Tech",
+      "fetcher": "RSS",
+      "furl_generator": "embedly_rss",
+      "app": "feedburner",
+      "grouping": "feedburner",
+      "source": "http://feeds.feedburner.com/NDTV-Tech",
+      "enabled": true,
+      "tags": [
+        "Tech"
+      ],
+      "max_items": 10,
+      "skip": 0
+    },
+    {
+      "name": "economictimes-india-business",
+      "fetcher": "RSS",
+      "furl_generator": "embedly_rss",
+      "app": "economictimes",
+      "grouping": "economictimes",
+      "source": "http://economictimes.indiatimes.com/markets/expert-view/rssfeeds/50649960.cms",
+      "enabled": true,
+      "tags": [
+        "Tech"
+      ],
+      "max_items": 10,
+      "skip": 0
+    },
+    {
+      "name": "IBN-Live-tech",
+      "fetcher": "RSS",
+      "furl_generator": "embedly_rss",
+      "app": "ibnlive",
+      "grouping": "ibnlive",
+      "source": "http://www.ibnlive.com/rss/tech.xml",
+      "enabled": true,
+      "tags": [
+        "Tech"
+      ],
+      "max_items": 10,
+      "skip": 0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "displayName":"Art of Manliness",
+  "screen-file-name":"6d4c1224-68a0-4203-88ca-f75df5a30708.json",
+  "screen-uuid":"932f4321-8d05-4e1c-b0a5-ac97f06ed992",
+  "username":"vishvesh",
+  "screen-config-base":"./config/man-screen-cfg.json",
+  "tag_order":[
+    "TOP PICKS"
+  ],
+  "interests":[
+    "men's health"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":30,
+  "ranking-function":"interleave",
+  "displayIcon":"Men's-Style.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"gqindia-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/GqIndia",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"mensgrooming-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/AlphaMconsulting/videos",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"artof-manliness-rss",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://feeds.feedburner.com/TheArtOfManliness",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    },
+    {
+      "name":"mansworld-customfetcher",
+      "fetcher":"mansworld",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.mansworldindia.com/",
+      "enabled":true,
+      "tags":[
+        "TOP PICKS"
+      ],
+      "max_items":20,
+      "skip":0
+    }
+  ]
+}

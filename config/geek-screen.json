@@ -1,0 +1,101 @@
+{
+  "displayName" : "Geek",
+  "screen-uuid" : "75b8fba1-255d-4b0a-84e8-3a1abeed7e03",
+  "username" : "eglover",
+  "partnerid" : "4041472252",
+  "displayIcon":"geek.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  
+  "ranking-function":"interleave",
+  "screen-file-name" : "f5e69016-4904-4fb5-96e9-0e0e2de735e4.json",
+  "screen-config-base" : "./config/geek-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["All", "Biz", "Gadgets", "Hacking", "re/code"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["us"],
+  "interests" : ["tech fanatic"],
+
+  "sources" : [
+    {
+      "name" :"reddit-gadgets",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "reddit",
+      "grouping" : "reddit",
+      "source" : "https://www.reddit.com/r/gadgets.rss",
+      "enabled" : true,
+      "tags" : ["Gadgets"],
+      "max_items" : 10,
+      "user_agent" : "Linux:ScreenGenerator:v1.0.0 (by eric_quixey_sc@ericglover.com)",
+      "skip" : 2
+    },
+    {
+      "name" : "TechCrunch-main",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "techcrunch",
+      "grouping" : "techcrunch",
+      "source" : "http://feeds.feedburner.com/TechCrunch/",
+      "enabled" : true,
+      "tags" : ["Biz"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "Gizmodo-main",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "gizmodo",
+      "grouping" : "gizmodo",
+      "source" : "http://feeds.gawker.com/gizmodo/full",
+      "enabled" : true,
+      "tags" : ["Biz"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" : "Lifehacker-main",
+      "fetcher" : "RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "lifehacker",
+      "grouping" : "lifehacker",
+      "source" : "http://feeds.gawker.com/lifehacker/full.xml#_ga=1.181164135.153057568.1451969753",
+      "enabled" : true,
+      "tags" : ["Hacking"],
+      "max_items" : 10,
+      "skip" : 0
+    },
+    {
+      "name" :"reddit-netsec",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "reddit",
+      "grouping" : "reddit",
+      "source" : "https://www.reddit.com/r/netsec/hot.rss",
+      "enabled" : true,
+      "tags" : ["Hacking"],
+      "max_items" : 10,
+      "user_agent" : "Linux:ScreenGenerator:v1.0.0 (by eric_quixey_sc@ericglover.com)",
+      "skip" : 2
+    },
+    {
+      "name" :"recode",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "recode",
+      "grouping" : "recode",
+      "source" : "http://recode.net/feed/",
+      "enabled" : true,
+      "tags" : ["re/code"],
+      "max_items" : 10,
+      "skip" : 0
+    }
+  ]
+}

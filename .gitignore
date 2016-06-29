@@ -1,0 +1,7 @@
+.idea
+venv
+out
+*.egg-info
+*.gz
+working-dir/
+search/

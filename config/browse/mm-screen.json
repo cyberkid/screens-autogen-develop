@@ -1,0 +1,104 @@
+{
+  "ranking-function":"interleave",
+  "screen-file-name" : "11e31b68-dfc5-4283-b115-60a4f7e4a02d.json",
+  "screen-config-base" : "./config/mm-screen-cfg.json",
+  "auto-gen-tabs" : true,
+  "gzip" : true,
+  "include_all" : true,
+  "dvcs_endpoint" : "???",
+  "tag_order" : ["Video", "News", "Social"],
+  "max_dv_per_tab" : 20,
+  "countries" : ["us"],
+  "interests" : ["march madness"],
+
+  "sources" : [
+    {
+      "name" :"twitter-marchmadness",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "twitter",
+      "grouping" : "twitter",
+      "source" : "https://twitrss.me/twitter_user_to_rss/?user=marchmadness",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" :"instagram-marchmadness",
+      "fetcher" :"single",
+      "furl_generator" : "",
+      "app" : "instagram",
+      "grouping" : "instagram",
+      "furl" : "func://instagram.com/showPhotosByTagName/marchmadness",
+      "url": "",
+      "enabled" : true,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" :"instagram-websta-marchmadness",
+      "fetcher" :"RSS",
+      "furl_generator" : "embedly_rss",
+      "app" : "instagram",
+      "grouping" : "instagram",
+      "source" : "http://widget.websta.me/rss/n/marchmadness",
+      "enabled" : false,
+      "tags" : ["Social"],
+      "max_items" : 7
+    },
+    {
+      "name" : "Youtube-ncaa-bb",
+      "fetcher" : "youtube",
+      "furl_generator" : "embedly_rss",
+      "app" : "youtube",
+      "grouping" : "youtube",
+      "source" : "https://www.youtube.com/results?sp=CAISAggD&q=ncaa+basketball+2016",
+      "enabled" : true,
+      "tags" : ["Video"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name" : "Youtube-Kentucky-basketball",
+      "fetcher" : "youtube",
+      "furl_generator" : "embedly_rss",
+      "app" : "youtube",
+      "grouping" : "youtube",
+      "source" : "https://www.youtube.com/channel/UC7EY-H9hmOcrckQ1X-I6SpA/videos",
+      "enabled" : false,
+      "tags" : ["Video"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name" : "Facebook-MarchMadness",
+      "fetcher" : "facebook",
+      "furl_generator" : "embedly_rss",
+      "app" : "facebook",
+      "grouping" : "facebook",
+      "source" : "https://graph.facebook.com/v2.2/176134773759/feed?access_token=1021790844549388|iK2pnIeExkb_XiUVsNpJxaMj0cs",
+      "post_url" : "https://www.facebook.com/NCAAMarchMadness/posts/{}",
+      "enabled" : false,
+      "tags" : ["Social"],
+      "max_items" : 20,
+      "skip" : 0
+    },
+    {
+      "name": "bleacherrerpot-college-basketball",
+      "fetcher": "bleacherreport",
+      "furl_generator": "embedly_rss",
+      "app": "youtube",
+      "grouping": "bleacherreport",
+      "source": "http://bleacherreport.com/college-basketball",
+      "enabled": true,
+      "tags": ["News"],
+      "max_items": 100,
+      "skip": 1,
+      "filterout" : [
+        {
+        "url" : "twitter.com"
+      }
+      ]
+    }
+  ]
+}

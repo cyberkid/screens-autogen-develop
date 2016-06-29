@@ -1,0 +1,91 @@
+{
+  "displayName":"Pop Science!",
+  "screen-file-name":"af132c52-b9d0-497c-83de-376338ac50e2.json",
+  "screen-uuid":"ecf1ae5e-7324-445a-9ec3-0a91350a46c5",
+  "username":"vishvesh",
+  "screen-config-base":"./config/pop-science-screen-cfg.json",
+  "tag_order":[
+    "TOP STORIES"
+  ],
+  "interests":[
+    "pop science"
+  ],
+  "countries":[
+    "in"
+  ],
+  "partnerid":"4041472252",
+  "auto-gen-tabs":true,
+  "gzip":true,
+  "include_all":true,
+  "dvcs_endpoint":"https://apiserver.canary.quixey.com/v4/dvcs/",
+  "max_dv_per_tab":20,
+  "ranking-function":"interleave",
+  "displayIcon":"/assets/sample-test.png",
+  "description":"test-description",
+  "tags":[
+    "Dynamic-test",
+    "Dynamic US-test"
+  ],
+  "sources":[
+    {
+      "name":"discoverychannel-youtube",
+      "fetcher":"youtube",
+      "furl_generator":"embedly_rss",
+      "source":"https://www.youtube.com/user/YourDiscoveryScience/videos",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":100,
+      "skip":0
+    },
+    {
+      "name":"sciam-story",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://rss.sciam.com/basic-science",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"nautil-story",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://nautil.us/rss/all",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"sciam-global-story",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://rss.sciam.com/ScientificAmerican-Global",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    },
+    {
+      "name":"livescience-story",
+      "fetcher":"RSS",
+      "furl_generator":"embedly_rss",
+      "source":"http://www.livescience.com/home/feed/site.xml ",
+      "enabled":true,
+      "tags":[
+        "TOP STORIES"
+      ],
+      "max_items":10,
+      "skip":0
+    }
+  ]
+}
